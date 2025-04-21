@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
@@ -5,40 +14,18 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "955bb93b-7a65-4933-8023-83a64ee46bc2": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "Add campaign text here.",
-            "link": "",
-            "color_bg": "#3F72E5",
-            "color_text": "#FFFFFF"
-          }
-        },
-        "acca6658-bd49-4cc7-be9a-c02394ef4917": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "Add campaign text here.",
-            "link": "",
-            "color_bg": "#3F72E5",
-            "color_text": "#FFFFFF"
-          }
-        },
         "888fc484-50e5-4566-bad6-41e835d00d5f": {
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "Add campaign text here.",
+            "text": "Free Delivery All Over Lebanon",
             "link": "",
-            "color_bg": "#3F72E5",
-            "color_text": "#FFFFFF"
+            "color_bg": "#3f72e5",
+            "color_text": "#ffffff"
           }
         }
       },
       "block_order": [
-        "955bb93b-7a65-4933-8023-83a64ee46bc2",
-        "acca6658-bd49-4cc7-be9a-c02394ef4917",
         "888fc484-50e5-4566-bad6-41e835d00d5f"
       ],
       "settings": {
@@ -54,8 +41,9 @@
     },
     "header-secondary-menu": {
       "type": "header-secondary-menu",
+      "disabled": true,
       "settings": {
-        "secondary_menu": "secondary",
+        "secondary_menu": "",
         "show_language_switcher": false,
         "show_currency_switcher": true,
         "show_social_media": true
@@ -67,15 +55,19 @@
         "sticky_header": true,
         "logo_height_range": 26,
         "logo_height_range_mobile": 26,
-        "style": "style5",
+        "style": "style1",
         "header_shadow": "header--shadow-small",
         "menu": "main-menu",
-        "transparent_header": false,
-        "mobile_secondary_menu": ""
+        "transparent_header": true,
+        "mobile_secondary_menu": "",
+        "show_social_links": true,
+        "show_language_switcher": false,
+        "show_currency_switcher": true
       }
     },
     "header-mobile-navigation": {
       "type": "header-mobile-navigation",
+      "disabled": true,
       "settings": {
         "mobile_nav": "main-menu",
         "color_links": "#d6d8d9",
