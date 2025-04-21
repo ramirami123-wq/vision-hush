@@ -108,18 +108,25 @@
 	{%- endif -%}
 
 	h1,h2,h3,h4,h5,h6,
-	.h1,.h2,.h3,.h4,.h5,.h6,
-	.logolink.text-logo,
-	.heading-font,
-	.h1-xlarge,
-	.h1-large,
-	blockquote p,
-	blockquote span,
-	.customer-addresses .my-address .address-index {
-		font-style: {{ heading_font.style }};
-		font-weight: {{ heading_font.weight }};
-		font-family: {{ heading_font.family }}, {{ heading_font.fallback_families }};
-	}
+.h1,.h2,.h3,.h4,.h5,.h6,
+.logolink.text-logo,
+.heading-font,
+.h1-xlarge,
+.h1-large,
+.customer-addresses .my-address .address-index {
+    font-style: normal;
+    font-weight: 600; /* Adjust as needed */
+    font-family: "Bebas Neue";
+}
+
+body,
+.body-font,
+.thb-product-detail .product-title {
+    font-style: normal;
+    font-weight: 400; /* Adjust as needed */
+    font-family: "Bebas Neue";
+}
+
 	body,
 	.body-font,
 	.thb-product-detail .product-title {
