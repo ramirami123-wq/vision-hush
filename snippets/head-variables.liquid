@@ -75,6 +75,11 @@
 -%}
 
 {% style %}
+  @font-face {
+    font-family: "Bebas Neue";
+    src: url("https://cdn.shopify.com/s/files/1/0755/3325/4899/files/BebasNeue-Regular.woff2?v=1745256790") format("woff2");
+}
+
 	{{ body_font | font_face: font_display: 'swap' }}
 
 	{%- if body_font_500 -%}
