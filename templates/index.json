@@ -44,78 +44,10 @@
             "button_2_link": "",
             "use_text_button_2": false
           }
-        },
-        "template--17993467625754__8ba47ba3-de7f-4f0a-b30d-6f2a540748c3-16787035832bb7b6a4-1": {
-          "type": "slide",
-          "settings": {
-            "slide_link": "",
-            "video_background": false,
-            "badge_text": "",
-            "subheading": "Add a tagline",
-            "heading": "Slide Heading",
-            "heading_size": "h1",
-            "content": "Add descriptive text for your slide here.",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "color_slidebg": "rgba(0,0,0,0)",
-            "color_slidebg_opacity": 0,
-            "color_slidebg_blur": 0,
-            "color_text": "#2c2d2e",
-            "color_badge_bg": "#3f72e5",
-            "color_badge_text": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "Shop Now",
-            "button_1_color": "accent",
-            "button_1_link": "",
-            "use_text_button_1": false,
-            "button_2_text": "Shop Now",
-            "button_2_color": "white",
-            "button_2_link": "",
-            "use_text_button_2": false
-          }
-        },
-        "template--17993467625754__8ba47ba3-de7f-4f0a-b30d-6f2a540748c3-16787035832bb7b6a4-2": {
-          "type": "slide",
-          "settings": {
-            "slide_link": "",
-            "video_background": false,
-            "badge_text": "",
-            "subheading": "Add a tagline",
-            "heading": "Slide Heading",
-            "heading_size": "h1",
-            "content": "Add descriptive text for your slide here.",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "color_slidebg": "rgba(0,0,0,0)",
-            "color_slidebg_opacity": 0,
-            "color_slidebg_blur": 0,
-            "color_text": "#2c2d2e",
-            "color_badge_bg": "#3f72e5",
-            "color_badge_text": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "Shop Now",
-            "button_1_color": "accent",
-            "button_1_link": "",
-            "use_text_button_1": false,
-            "button_2_text": "Shop Now",
-            "button_2_color": "white",
-            "button_2_link": "",
-            "use_text_button_2": false
-          }
         }
       },
       "block_order": [
-        "template--17993467625754__8ba47ba3-de7f-4f0a-b30d-6f2a540748c3-16787035832bb7b6a4-0",
-        "template--17993467625754__8ba47ba3-de7f-4f0a-b30d-6f2a540748c3-16787035832bb7b6a4-1",
-        "template--17993467625754__8ba47ba3-de7f-4f0a-b30d-6f2a540748c3-16787035832bb7b6a4-2"
+        "template--17993467625754__8ba47ba3-de7f-4f0a-b30d-6f2a540748c3-16787035832bb7b6a4-0"
       ],
       "settings": {
         "desktop_height": "desktop-height-650",
@@ -198,7 +130,7 @@
         "hide_variants": false,
         "lightbox": true,
         "enable_video_looping": false,
-        "marker_color": "#FD6262",
+        "marker_color": "#fd6262",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
@@ -217,7 +149,7 @@
         "show_view_all": true,
         "mobile_swipe": true,
         "show_progress_bar": true,
-        "marker_color": "#FD6262",
+        "marker_color": "#fd6262",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
@@ -232,7 +164,7 @@
             "open": false,
             "content": "<p>Hush Tape encourages nasal breathing to minimize throat vibrations and reduce snoring, promoting a deeper, more restorative sleep, and leading to a quieter sleep environment and energized wake-up.</p>",
             "page": "",
-            "custom_liquid": ""
+            "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0755/3325/4899/files/Rectangle_3257.png?v=1746019957\">"
           }
         },
         "collapsible_tab_PRqDxV": {
@@ -242,7 +174,7 @@
             "open": false,
             "content": "<p>Hush Tape offers a comfortable, secure fit for easy breathing and undisturbed sleep. Its gentle adhesion accommodates facial hair without irritation or losing its grip, ensuring a restful night.</p>",
             "page": "",
-            "custom_liquid": ""
+            "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0755/3325/4899/files/Hostage_Tape_mouth_tape_bearded_man.png?v=1746020040\">"
           }
         },
         "collapsible_tab_eYNfNz": {
@@ -252,39 +184,35 @@
             "open": false,
             "content": "<p>By keeping your mouth closed, Hush Tape prevents dry mouth, supports healthy saliva production, and reduces oral health risks.</p>",
             "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_ftTerw": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "open": false,
-            "content": "",
-            "page": "",
-            "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0755/3325/4899/files/Rectangle_3257.png?v=1746019957\">"
+            "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0755/3325/4899/files/Hostage_Tape_mouth_tape_smiling_bearded_man.png?v=1746020100\">"
           }
         }
       },
       "block_order": [
         "collapsible_tab_dxkQHh",
         "collapsible_tab_PRqDxV",
-        "collapsible_tab_eYNfNz",
-        "collapsible_tab_ftTerw"
+        "collapsible_tab_eYNfNz"
       ],
       "name": "Collapsible content",
       "settings": {
         "heading": "| RECLAIM YOUR SLEEP | WITH THE STRONGEST MOUTH TAPE EVER",
         "marker_style": "style1",
         "description": "",
-        "color_bg": "transparent",
+        "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#1a1c1d",
         "marker_color": "#004fff",
         "color_text": "#2c2d2e",
         "color_links": "#2c2d2e",
-        "color_border": "#DADCE0",
+        "color_border": "#dadce0",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
+      }
+    },
+    "custom_liquid_qDKxGh": {
+      "type": "custom-liquid",
+      "name": "Custom liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"text-align: center; margin-top: -50px;\">\n  <button style=\"background-color: #004FFF; border: none; border-radius: 25px; padding: 12px 24px; color: white; font-weight: bold; font-size: 16px; cursor: pointer;\">\n    GET BETTER SLEEP\n  </button>\n</div>"
       }
     }
   },
@@ -293,6 +221,7 @@
     "8f6ed916-ced8-44f6-9ef8-b60fd327ae31",
     "featured_product_nHAkbB",
     "featured_collection_YC6W78",
-    "collapsible_content_ERXABe"
+    "collapsible_content_ERXABe",
+    "custom_liquid_qDKxGh"
   ]
 }
