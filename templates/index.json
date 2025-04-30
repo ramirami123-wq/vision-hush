@@ -328,6 +328,71 @@
         "border_thickness": 0,
         "lazy": false
       }
+    },
+    "collapsible_content_X8HpYQ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_7hJEna": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Will i Suffocate? Nope!",
+            "open": false,
+            "content": "<p><strong>Our bodies have instincts that wake us up if breathing becomes uncomfortable due to congestion. It’s a lot smarter than we give it credit for! Mouth breathing causes the blood vessels in the nose to trigger mucus production and swelling; nasal breathing helps to combat that. Hush Tape is also porous, so air can pass through if needed.</strong></p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_m9zdKn": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Will It Save My Marriage? MAYBE...",
+            "open": false,
+            "content": "<p>Ask your partner instead of us. The bottom line is that snoring and irritability from lack of sleep are major contributors to arguments. We can help with some of that.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_mMbqQX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How does it work? encourages nasal breathing",
+            "open": false,
+            "content": "<p>By sealing your lips, you are forced to breathe through your nose. This promotes better, more peaceful sleep for both you -and- your partner.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_MEpdWX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can Women Use Hostage Tape? HELL YES!",
+            "open": false,
+            "content": "<p>Are you kidding me? Countless badass ladies use Hush Tape every night to reap the tremendous benefits of nasal breathing during sleep. </p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_7hJEna",
+        "collapsible_tab_m9zdKn",
+        "collapsible_tab_mMbqQX",
+        "collapsible_tab_MEpdWX"
+      ],
+      "name": "Collapsible content",
+      "settings": {
+        "heading": "Mouth Tape Frequently asked questions",
+        "marker_style": "style1",
+        "description": "",
+        "color_bg": "transparent",
+        "color_heading": "#1a1c1d",
+        "marker_color": "#FD6262",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "color_border": "#DADCE0",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -337,6 +402,7 @@
     "featured_collection_YC6W78",
     "collapsible_content_ERXABe",
     "custom_liquid_qDKxGh",
-    "steps_36N39D"
+    "steps_36N39D",
+    "collapsible_content_X8HpYQ"
   ]
 }
