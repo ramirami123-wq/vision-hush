@@ -212,7 +212,118 @@
       "type": "custom-liquid",
       "name": "Custom liquid",
       "settings": {
-        "custom_liquid": "<div style=\"text-align: center; margin-top: -50px;\">\n  <button style=\"background-color: #004FFF; border: none; border-radius: 25px; padding: 12px 24px; color: white; font-weight: bold; font-size: 16px; cursor: pointer;\">\n    GET BETTER SLEEP\n  </button>\n</div>"
+        "custom_liquid": "<div style=\"text-align: center; margin-top: -40px;margin-bottom:4rem;\">\n  <button style=\"background-color: #004FFF; border: none; border-radius: 25px; padding: 12px 24px; color: white; font-weight: bold; font-size: 16px; cursor: pointer;\">\n    GET BETTER SLEEP\n  </button>\n</div>"
+      }
+    },
+    "steps_36N39D": {
+      "type": "steps",
+      "blocks": {
+        "step_e4G79E": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/Hostage_Tape_mouth_tape_step_1.png",
+            "text": "<h3>Peel Backing Strip</h3><p>Pull strip's sides apart to separate backing and expose adhesive</p>"
+          }
+        },
+        "step_QUdCL6": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/Hostage_Tape_mouth_tape_step_2.png",
+            "text": "<h4>Applying Tape</h4><p>Apply to dry and pursed lips. Massage the tape to secure its position.</p>"
+          }
+        },
+        "step_Xykxw7": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/Hostage_Tape_mouth_tape_step_3_sleeping.png",
+            "text": "<h3>Ultimate Sleep Comfort</h3><p>Enjoy a restful night's sleep with the world's most flexible & comfortable mouth tape.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "step_e4G79E",
+        "step_QUdCL6",
+        "step_Xykxw7"
+      ],
+      "name": "SS - Steps #4",
+      "settings": {
+        "heading": "<h2>How it works</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 44,
+        "heading_size_mobile": 32,
+        "heading_height": 120,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "body_gap": 64,
+        "body_gap_mobile": 56,
+        "body_mt": 70,
+        "body_mt_mobile": 40,
+        "use_slider": true,
+        "slider_view_mobile": 1.3,
+        "slider_gap_mobile": 20,
+        "image_radius": 16,
+        "image_border_thickness": 2,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "circle_number_size": 40,
+        "circle_number_size_mobile": 40,
+        "number_custom": false,
+        "number_font": "josefin_sans_n4",
+        "number_size": 18,
+        "number_size_mobile": 18,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 18,
+        "text_height": 130,
+        "text_mt": 24,
+        "text_align": "center",
+        "text_align_mobile": "center",
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 16,
+        "button_height": 100,
+        "button_width": 200,
+        "button_width_mobile": 200,
+        "button_mt": 70,
+        "button_mt_mobile": 32,
+        "button_padding_vertical": 14,
+        "button_padding_vertical_mobile": 14,
+        "button_padding_horizontal": 22,
+        "button_padding_horizontal_mobile": 22,
+        "button_radius": 100,
+        "button_border_thickness": 0,
+        "button_align": "center",
+        "button_align_mobile": "center",
+        "button_style": "non_outline",
+        "image_border_color": "#000000",
+        "circle_number_bg_color": "#000000",
+        "number_color": "#FFFFFF",
+        "text_color": "#000000",
+        "button_color": "#FFFFFF",
+        "button_hover_color": "#FFFFFF",
+        "button_bg_color": "#000000",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 130,
+        "border_thickness": 0,
+        "lazy": true
       }
     }
   },
@@ -222,6 +333,7 @@
     "featured_product_nHAkbB",
     "featured_collection_YC6W78",
     "collapsible_content_ERXABe",
-    "custom_liquid_qDKxGh"
+    "custom_liquid_qDKxGh",
+    "steps_36N39D"
   ]
 }
