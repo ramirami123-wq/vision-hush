@@ -106,7 +106,7 @@
         "buy_buttons_93Vi6B": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         }
       },
@@ -119,10 +119,10 @@
       ],
       "name": "Featured product",
       "settings": {
-        "heading": "Featured product",
+        "heading": "",
         "marker_style": "style1",
-        "description": "<p>Add a short description for this featured product</p>",
-        "product": "",
+        "description": "",
+        "product": "hush-mouth-tape",
         "show_taxes_included": true,
         "thumbnail_position": "left",
         "media_aspect_ratio": "adapt",
