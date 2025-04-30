@@ -53,7 +53,7 @@
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-500",
         "full_width": true,
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_length": 5,
         "transition": "zoom",
         "controls": "arrows-with-numbers",
