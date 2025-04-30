@@ -261,7 +261,7 @@
         "body_gap": 64,
         "body_gap_mobile": 56,
         "body_mt": 70,
-        "body_mt_mobile": 40,
+        "body_mt_mobile": 20,
         "use_slider": true,
         "slider_view_mobile": 1.3,
         "slider_gap_mobile": 20,
@@ -326,7 +326,7 @@
         "full_width": false,
         "content_width": 130,
         "border_thickness": 0,
-        "lazy": true
+        "lazy": false
       }
     }
   },
