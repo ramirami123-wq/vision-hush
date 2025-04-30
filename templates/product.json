@@ -98,7 +98,7 @@
         "collapsible_tab_C3mRaX"
       ],
       "settings": {
-        "enable_sticky_add_to_cart": true,
+        "enable_sticky_add_to_cart": false,
         "show_taxes_included": true,
         "thumbnail_position": "left",
         "media_aspect_ratio": "adapt",
