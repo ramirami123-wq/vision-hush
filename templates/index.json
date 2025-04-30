@@ -193,6 +193,9 @@
         "collapsible_tab_PRqDxV",
         "collapsible_tab_eYNfNz"
       ],
+      "custom_css": [
+        "h1,h2,h3,h4,h5 {font-size: 2rem;}"
+      ],
       "name": "Collapsible content",
       "settings": {
         "heading": "| RECLAIM YOUR SLEEP | WITH THE STRONGEST MOUTH TAPE EVER",
