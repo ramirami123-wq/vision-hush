@@ -1,6 +1,238 @@
+{{ 'reviews-carousel.css' | asset_url | stylesheet_tag }}
+
+{% if section.settings.bg_image != blank %}
+  {% style %}
+    .reviewsCarousel {
+      background-image: url('{{section.settings.bg_image_mobile | img_url: 'master'}}');
+      background-color: transparent;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+
+    @media (min-width: 1024px) {
+      .reviewsCarousel {
+        background-image: url('{{section.settings.bg_image | img_url: 'master'}}');
+      }
+    }
+  {% endstyle %}
+{% endif %}
+
+<div class="reviewsCarousel">
+  <h3 class="reviewsCarousel__heading">{{ section.settings.title }}</h3>
+  <div class="swiper reviewsCarousel__slide-container">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="swiper-slide reviewsCarousel__slide" x-data="reviewsCarousel">
+          {% if block.settings.media_type == 'video' %}
+            {% assign videoRef = 'video_' | append: forloop.index %}
+          {% endif %}
+          <div
+            class="reviewsCarousel__slide-media-wrapper {% if block.settings.media_type != 'video' %}no-gradient{% endif %}"
+            x-data="{ isHighlighted: false }"
+            :class="{ 'media-playing': isHighlighted }"
+            data-ht-category="{% if template.name contains 'product' %}pdp{%  elsif template.suffix contains 'founder-story'%}fsp{% elsif template.name contains 'index' %}homepage{% endif %}_video_reviews"
+            data-ht-label="{% if template.name contains 'product' %}pdp{%  elsif template.suffix contains 'founder-story'%}fsp{% elsif template.name contains 'index' %}homepage{% endif %}_video_review_{{ forloop.index }}"
+          >
+            {% if block.settings.media_type == 'video' %}
+              {% assign video = block.settings.video %}
+
+              <video
+                class="reviewsCarousel__slide-media lazyload"
+                x-ref="{{videoRef}}"
+                @click="playing = !playing; $refs.{{videoRef}}[playing ? 'play' : 'pause'](); isHighlighted = !isHighlighted"
+                playsinline="true"
+                preload="metadata"
+                poster="{{ video.preview_image | image_url }}"
+              >
+                {% for source in video.sources %}
+                  <source
+                    src="{{ source.url }}"
+                    type="{{ source.mime_type }}"
+                  >
+                {% endfor %}
+              </video>
+              <div
+                class="reviewsCarousel__slide-media-btn"
+                @click="playing = !playing; $refs.{{videoRef}}[playing ? 'play' : 'pause'](); isHighlighted = !isHighlighted"
+              >
+                {% render 'brush-play-button' %}
+              </div>
+              {% if forloop.index == 1 and block.settings.video_preview_poster != blank %}
+                <video
+                  class="reviewsCarousel__slide-media-poster"
+                  playsinline
+                  autoplay
+                  loop="loop"
+                  muted="muted"
+                >
+                  {% for source in block.settings.video_preview_poster.sources %}
+                    <source
+                      src="{{ source.url }}"
+                      type="{{ source.mime_type }}"
+                    >
+                  {% endfor %}
+                </video>
+              {% endif %}
+            {% else %}
+              {% render 'responsive-image', image: block.settings.image %}
+            {% endif %}
+          </div>
+          <div class="reviewsCarousel__slide-info">
+            {% assign starsLimit = block.settings.review_stars %}
+            <div class="reviewsCarousel__review-stars">
+              {% for star in (1..starsLimit) %}
+                <svg class="reviewsCarousel__review-stars" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M11.9988 0.629883L14.9018 8.97988L23.7408 9.16088L16.6958 14.5019L19.2558 22.9639L11.9978 17.9139L4.74181 22.9639L7.30181 14.5019L0.257812 9.16088L9.09681 8.98088L11.9988 0.629883Z" fill="white"/>
+                </svg>
+              {% endfor %}
+            </div>
+
+            {% if block.settings.review_title %}
+              <label class="reviewsCarousel__review-title subHeading">{{ block.settings.review_title }}</label>
+            {% endif %}
+            {% if block.settings.review_body %}
+              <p class="reviewsCarousel__review-body">"{{ block.settings.review_body }}"</p>
+            {% endif %}
+            {% if block.settings.reviewer_name %}
+              <span class="reviewsCarousel__reviewer-name">{{ block.settings.reviewer_name }}</span>
+            {% endif %}
+            {% if block.settings.reviewer_profession %}
+              <span class="reviewsCarousel__reviewer-profession">{{ block.settings.reviewer_profession }}</span>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div
+      class="swiper-button-prev-reviews reviewsCarousel__prev reviewsCarousel__arrows"
+      data-ht-category="{% if template.name contains 'product' %}pdp{%  elsif template.suffix contains 'founder-story'%}fsp{% elsif template.name contains 'index' %}homepage{% endif %}_video_reviews"
+      data-ht-label="{% if template.name contains 'product' %}pdp{%  elsif template.suffix contains 'founder-story'%}fsp{% elsif template.name contains 'index' %}homepage{% endif %}_video_review_nav_left"
+    >
+      {% render 'svg-arrow-left' %}
+    </div>
+    <div
+      class="swiper-button-next-reviews reviewsCarousel__next reviewsCarousel__arrows"
+      data-ht-category="{% if template.name contains 'product' %}pdp{%  elsif template.suffix contains 'founder-story'%}fsp{% elsif template.name contains 'index' %}homepage{% endif %}_video_reviews"
+      data-ht-label="{% if template.name contains 'product' %}pdp{%  elsif template.suffix contains 'founder-story'%}fsp{% elsif template.name contains 'index' %}homepage{% endif %}_video_review_nav_right"
+    >
+      {% render 'svg-arrow-right' %}
+    </div>
+  </div>
+</div>
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Reviews Carousel",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Section's background image"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image_mobile",
+      "label": "Section's Mobile background image"
+    },
+    {
+      "type": "html",
+      "id": "title",
+      "label": "Title HTML"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "select",
+          "id": "media_type",
+          "default": "image",
+          "info": "Select whether this you will use a video or an image for this block",
+          "label": "Media type",
+          "options": [
+            {
+              "value": "image",
+              "label": "Image"
+            },
+            {
+              "value": "video",
+              "label": "Video"
+            }
+          ]
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Video"
+        },
+        {
+          "type": "video",
+          "id": "video_preview_poster",
+          "label": "Video Preview",
+          "info": "upload a GIF to show video preview, works on first slide only"
+        },
+        {
+          "type": "select",
+          "id": "review_stars",
+          "label": "Reviews Stars",
+          "default": "5",
+          "options": [
+            {
+              "label": "1",
+              "value": "1"
+            },
+            {
+              "value": "2",
+              "label": "2"
+            },
+            {
+              "label": "3",
+              "value": "3"
+            },
+            {
+              "label": "4",
+              "value": "4"
+            },
+            {
+              "label": "5",
+              "value": "5"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "review_title",
+          "label": "Review Title"
+        },
+        {
+          "type": "text",
+          "id": "review_body",
+          "label": "Review"
+        },
+        {
+          "type": "text",
+          "id": "reviewer_name",
+          "label": "Reviewer"
+        },
+        {
+          "type": "text",
+          "id": "reviewer_profession",
+          "label": "Reviewer Profession"
+        }
+      ]
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Reviews Carousel"
+    }
+  ]
+}
 {% endschema %}
