@@ -237,3 +237,45 @@
   ]
 }
 {% endschema %}
+
+
+
+                    <script>
+document.addEventListener('DOMContentLoaded', function () {
+  const videoToggles = document.querySelectorAll('.js-toggle-video');
+  const videoSlides = document.querySelectorAll('.reviewsCarousel__slide');
+
+  videoToggles.forEach(btn => {
+    btn.addEventListener('click', function () {
+      const ref = this.dataset.ref;
+      const video = document.querySelector(`[data-ref="${ref}"]`);
+      const slide = this.closest('.reviewsCarousel__slide-media-wrapper');
+
+      if (video.paused) {
+        video.play();
+        slide.classList.add('media-playing');
+      } else {
+        video.pause();
+        slide.classList.remove('media-playing');
+      }
+    });
+  });
+
+  // Optional: Allow clicking the video itself to toggle
+  videoSlides.forEach(slide => {
+    const video = slide.querySelector('.reviewsCarousel__slide-media');
+    if (video) {
+      video.addEventListener('click', function () {
+        const wrapper = video.closest('.reviewsCarousel__slide-media-wrapper');
+        if (video.paused) {
+          video.play();
+          wrapper.classList.add('media-playing');
+        } else {
+          video.pause();
+          wrapper.classList.remove('media-playing');
+        }
+      });
+    }
+  });
+});
+</script>
