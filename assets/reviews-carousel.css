@@ -259,6 +259,10 @@
  .swiper-button-hidden {
     display: none!important;
 }
+  .reviewsCarousel__heading{
+          font-size: 36px;
+        line-height: 36px;
+  }
 @media only screen and (min-width: 1200px) {
   .subHeading{
     font-size: 20px;
