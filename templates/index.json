@@ -135,6 +135,57 @@
         "disable_bottom_spacing": false
       }
     },
+    "reviews_carousel_eMCBcr": {
+      "type": "reviews-carousel",
+      "blocks": {
+        "slide_fRMHJ9": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Construction_e1603227-6033-48d7-9d6e-85ce343dfa1b.png",
+            "review_stars": "5",
+            "review_title": "",
+            "review_body": "",
+            "reviewer_name": "",
+            "reviewer_profession": ""
+          }
+        },
+        "slide_A9nEWU": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Hostage_Tape_mouth_tape_face_with_100000.png",
+            "review_stars": "5",
+            "review_title": "",
+            "review_body": "",
+            "reviewer_name": "",
+            "reviewer_profession": ""
+          }
+        },
+        "slide_QF6cqN": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Hostage_Tape_mouth_tape_step_2.png",
+            "review_stars": "5",
+            "review_title": "",
+            "review_body": "",
+            "reviewer_name": "",
+            "reviewer_profession": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_fRMHJ9",
+        "slide_A9nEWU",
+        "slide_QF6cqN"
+      ],
+      "name": "Reviews Carousel",
+      "settings": {
+        "bg_image": "shopify://shop_images/construction-bg.webp",
+        "title": ""
+      }
+    },
     "featured_collection_YC6W78": {
       "type": "featured-collection",
       "custom_css": [
@@ -424,8 +475,8 @@
         "text_size": 56,
         "text_uppercase": false,
         "image_size": "large",
-        "color_bg": "transparent",
-        "color_text": "#1A1C1D",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#1a1c1d",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "disable_top_spacing": true,
@@ -437,6 +488,7 @@
     "8ba47ba3-de7f-4f0a-b30d-6f2a540748c3",
     "8f6ed916-ced8-44f6-9ef8-b60fd327ae31",
     "featured_product_nHAkbB",
+    "reviews_carousel_eMCBcr",
     "featured_collection_YC6W78",
     "collapsible_content_ERXABe",
     "custom_liquid_qDKxGh",
