@@ -256,7 +256,9 @@
     font-weight: 400;
     line-height: 20px;
 }
-
+ .swiper-button-hidden {
+    display: none!important;
+}
 @media only screen and (min-width: 1200px) {
   .subHeading{
     font-size: 20px;
