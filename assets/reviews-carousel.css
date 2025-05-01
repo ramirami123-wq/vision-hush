@@ -264,4 +264,8 @@
     font-size: 20px;
     line-height: 24px;
   }
+  .reviewsCarousel__heading{
+          font-size: 64px;
+        line-height: 60px;
+  }
 }
