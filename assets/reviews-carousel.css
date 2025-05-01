@@ -1,3 +1,6 @@
+:root{
+  --colorWhite: white
+}
 .reviewsCarousel{
   padding-top: 7.2rem;
   padding-bottom: 7.2rem;
