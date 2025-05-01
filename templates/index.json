@@ -185,7 +185,7 @@
       ],
       "name": "Reviews Carousel",
       "settings": {
-        "bg_image": "shopify://shop_images/construction-bg.webp",
+        "bg_image": "shopify://shop_images/Reviews.webp",
         "title": ""
       }
     },
