@@ -141,8 +141,9 @@
         "slide_fRMHJ9": {
           "type": "slide",
           "settings": {
-            "media_type": "image",
+            "media_type": "video",
             "image": "shopify://shop_images/Construction_e1603227-6033-48d7-9d6e-85ce343dfa1b.png",
+            "video": "shopify://files/videos/43d67be7eaab4c809f842f45e47047d7.HD-1080p-4.8Mbps-34910134.mp4",
             "review_stars": "5",
             "review_title": "",
             "review_body": "",
@@ -153,8 +154,9 @@
         "slide_A9nEWU": {
           "type": "slide",
           "settings": {
-            "media_type": "image",
+            "media_type": "video",
             "image": "shopify://shop_images/Hostage_Tape_mouth_tape_face_with_100000.png",
+            "video": "shopify://files/videos/2c027977aad145759cd56cc3380600f5.HD-1080p-4.8Mbps-34909319.mp4",
             "review_stars": "5",
             "review_title": "",
             "review_body": "",
@@ -167,6 +169,7 @@
           "settings": {
             "media_type": "image",
             "image": "shopify://shop_images/Hostage_Tape_mouth_tape_step_2.png",
+            "video": "shopify://files/videos/5b204da1b61a49229d385b653871e324.HD-1080p-4.8Mbps-34909760.mp4",
             "review_stars": "5",
             "review_title": "",
             "review_body": "",
