@@ -1,8 +1,12 @@
-{{ 'reviews-carousel.css' | asset_url | stylesheet_tag }}
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ {{ 'reviews-carousel.css' | asset_url | stylesheet_tag }}
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="{{ "bundle.theme.js" | asset_url }}"></script>
-<script src="//unpkg.com/alpinejs" defer></script>
+<script src="//unpkg.com/alpinejs" defer></script> -->
 
+<script src="//asadbasheer.myshopify.com/cdn/shop/t/35/assets/bundle.vendors.js?v=102570676882337992891746082644"></script>
+<script src="//asadbasheer.myshopify.com/cdn/shop/t/35/assets/bundle.common.js?3139"></script>
+<script src="//asadbasheer.myshopify.com/cdn/shop/t/35/assets/bundle.theme.js?v=83656996019816457731746082644"></script>
+<script src="//asadbasheer.myshopify.com/cdn/shop/t/35/assets/bundle.index.js?v=151142430560368393471746082643"></script>
 {% if section.settings.bg_image != blank %}
   {% style %}
     .reviewsCarousel {
