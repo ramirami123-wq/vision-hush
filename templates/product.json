@@ -290,7 +290,7 @@
           "settings": {
             "title": "COMPANY NAME",
             "text": "The real gem is the integrated smartphone app with guided classes and body tracking. I really like it.",
-            "hide_avatar": false,
+            "hide_avatar": true,
             "author": "Lara S.",
             "stars_count": 5
           }
@@ -300,7 +300,7 @@
           "settings": {
             "title": "COMPANY NAME",
             "text": "The real gem is the integrated smartphone app with guided classes and body tracking. I really like it.",
-            "hide_avatar": false,
+            "hide_avatar": true,
             "author": "Lara S.",
             "stars_count": 5
           }
@@ -310,7 +310,7 @@
           "settings": {
             "title": "COMPANY NAME",
             "text": "The real gem is the integrated smartphone app with guided classes and body tracking. I really like it.",
-            "hide_avatar": false,
+            "hide_avatar": true,
             "author": "Lara S.",
             "stars_count": 5
           }
@@ -320,7 +320,7 @@
           "settings": {
             "title": "COMPANY NAME",
             "text": "The real gem is the integrated smartphone app with guided classes and body tracking. I really like it.",
-            "hide_avatar": false,
+            "hide_avatar": true,
             "author": "Lara S.",
             "stars_count": 5
           }
@@ -330,7 +330,7 @@
           "settings": {
             "title": "COMPANY NAME",
             "text": "The real gem is the integrated smartphone app with guided classes and body tracking. I really like it.",
-            "hide_avatar": false,
+            "hide_avatar": true,
             "author": "Lara S.",
             "stars_count": 5
           }
@@ -372,7 +372,7 @@
         "stars_count": 0,
         "stars_size": 16,
         "slider_view": "5",
-        "slider_view_mobile": 1.5,
+        "slider_view_mobile": 1,
         "slider_gap": 20,
         "slider_gap_mobile": 20,
         "slider_mt": 20,
@@ -380,7 +380,7 @@
         "card_padding_vertical_mobile": 16,
         "card_padding_horizontal": 24,
         "card_padding_horizontal_mobile": 16,
-        "card_radius": 30,
+        "card_radius": 14,
         "card_border_thickness": 0,
         "card_shadow": false,
         "title_custom": false,
@@ -416,25 +416,25 @@
         "progress_height_mobile": 6,
         "progress_show_desktop": true,
         "progress_show_mobile": true,
-        "card_bg_color": "#F8F8F8",
-        "card_border_color": "#000000",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#ffffff",
         "card_shadow_color": "#000000",
-        "title_color": "#B8B8B8",
+        "title_color": "#000000",
         "text_color": "#000000",
         "author_color": "#000000",
-        "arrow_color": "#E6E6E6",
-        "arrow_hover_color": "#A7A7A4",
-        "arrow_bg_color": "#FFFFFF",
-        "arrow_bg_hover_color": "#FFFFFF",
-        "arrow_border_color": "#FFFFFF",
-        "arrow_border_hover_color": "#FFFFFF",
-        "progress_bg_color": "#D9D9D9",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#a7a7a4",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#ffffff",
+        "arrow_border_hover_color": "#ffffff",
+        "progress_bg_color": "#d9d9d9",
         "progress_color": "#838383",
-        "heading_color": "#000000",
-        "bottom_color": "#000000",
+        "heading_color": "#ffffff",
+        "bottom_color": "#ffffff",
         "rating_text_color": "#000000",
-        "stars_color": "#F4AC03",
-        "background_color": "#FFFFFF",
+        "stars_color": "#f4ac03",
+        "background_color": "#000000",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
