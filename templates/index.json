@@ -189,6 +189,13 @@
         "title": "<span>Trusted by 100,000+</span>\nMouth Tapers worldwide"
       }
     },
+    "animated_paragraph_6U97Ri": {
+      "type": "animated-paragraph",
+      "name": "Animated Paragraph",
+      "settings": {
+        "bg_color": "#000"
+      }
+    },
     "featured_collection_YC6W78": {
       "type": "featured-collection",
       "custom_css": [
@@ -492,6 +499,7 @@
     "8f6ed916-ced8-44f6-9ef8-b60fd327ae31",
     "featured_product_nHAkbB",
     "reviews_carousel_eMCBcr",
+    "animated_paragraph_6U97Ri",
     "featured_collection_YC6W78",
     "collapsible_content_ERXABe",
     "custom_liquid_qDKxGh",
