@@ -147,7 +147,7 @@
             "review_stars": "5",
             "review_title": "The secret edge...",
             "review_body": "The secret edge over everyone is always gonna be your sleep and it's gonna be your recovery.",
-            "reviewer_name": "Andy Elliot",
+            "reviewer_name": "Andy Elliot test",
             "reviewer_profession": "Professional Trainer"
           }
         },
@@ -176,12 +176,24 @@
             "reviewer_name": "",
             "reviewer_profession": ""
           }
+        },
+        "slide_nn63Hg": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_stars": "5",
+            "review_title": "",
+            "review_body": "",
+            "reviewer_name": "",
+            "reviewer_profession": ""
+          }
         }
       },
       "block_order": [
         "slide_fRMHJ9",
         "slide_A9nEWU",
-        "slide_QF6cqN"
+        "slide_QF6cqN",
+        "slide_nn63Hg"
       ],
       "name": "Reviews Carousel",
       "settings": {
@@ -296,7 +308,7 @@
       "settings": {
         "background_image": "shopify://shop_images/construction-bg_5a02d690-bb06-45d5-9dc7-9727aaa2706b.webp",
         "title": "Each aspect of <span>Hostage Tape</span> has been carefully designed &amp; executed to achieve the best Mouth TapING experience possible",
-        "layerd_male_image": "shopify://shop_images/Construction.png",
+        "layerd_male_image": "shopify://shop_images/Construction.webp",
         "text_color": "#0f0f10",
         "layers_data_color": "#0f0f10"
       }
