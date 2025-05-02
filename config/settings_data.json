@@ -53,7 +53,14 @@
     "search_product_collection": "all",
     "search_product_collection_limit": 3,
     "search_product_list": [],
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "11532412952436166569": {
+        "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Default": {
