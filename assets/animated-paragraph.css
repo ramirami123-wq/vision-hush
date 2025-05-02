@@ -72,25 +72,27 @@
 }
 
 
-.animePara .container{
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
-    max-width: 144rem;
+.animePara .container {
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .animePara__heading {
     color: #464646;
-    max-width: 102.4rem;
+    max-width: 1024px;
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
   .container {
-      padding-left: 6.4rem;
-      padding-right: 6.4rem;
+      padding-left: 64px;
+      padding-right: 64px;
   }
+
   .animePara__heading {
-      font-size: 7.2rem;
-        line-height: 7.2rem;
+      font-size: 72px;
+      line-height: 72px;
   }
 }
