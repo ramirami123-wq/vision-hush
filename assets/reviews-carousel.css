@@ -36,10 +36,10 @@
   max-width: 84%;
 }
 
-.reviewsCarousel__slide-container {
+.reviewsCarousel .reviewsCarousel__slide-container {
   position: static;
   margin-top: 32px;
-  padding-left: 16px !important;
+  padding-left: 16px ;
 }
 
 .reviewsCarousel__slide img,
