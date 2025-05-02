@@ -39,7 +39,7 @@
 .reviewsCarousel__slide-container {
   position: static;
   margin-top: 32px;
-  padding-left: 16px;
+  padding-left: 16px !important;
 }
 
 .reviewsCarousel__slide img,
