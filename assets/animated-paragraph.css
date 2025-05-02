@@ -86,7 +86,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
+  .animePara .container {
       padding-left: 64px;
       padding-right: 64px;
   }
