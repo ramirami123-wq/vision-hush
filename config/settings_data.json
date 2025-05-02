@@ -14,7 +14,7 @@
     "body_font": "open_sans_n6",
     "navigation_uppercase": false,
     "button_letter_spacing": 0,
-    "button_uppercase": false,
+    "button_uppercase": true,
     "color_body_bg": "#ffffff",
     "color_body": "#000000",
     "color_heading": "#000000",

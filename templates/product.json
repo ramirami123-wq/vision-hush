@@ -11,20 +11,18 @@
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
+      "custom_css": [
+        "* {color: white;}"
+      ],
       "settings": {}
     },
     "main-product": {
       "type": "main-product",
       "blocks": {
-        "2b609eea-6cce-4efe-b447-c5560de1d797": {
-          "type": "label",
-          "settings": {}
-        },
-        "e431a79e-9c7b-4a53-a79a-0cb918617ecf": {
-          "type": "text",
+        "custom_liquid_iYyaCY": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "style_vendor"
+            "custom_liquid": "<span style=\"display: inline-block; padding: 2px 10px; background-color: #0033ff; color: #ffffff; font-size: 12px; font-weight: bold; border-radius: 999px; text-transform: uppercase; letter-spacing: 0.5px;margin-bottom:1rem;\">\n  LIMITED QUANTITY\n</span>"
           }
         },
         "title": {
@@ -61,7 +59,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
           }
         },
@@ -87,8 +85,7 @@
         }
       },
       "block_order": [
-        "2b609eea-6cce-4efe-b447-c5560de1d797",
-        "e431a79e-9c7b-4a53-a79a-0cb918617ecf",
+        "custom_liquid_iYyaCY",
         "title",
         "custom_liquid_zUV3U9",
         "variant_picker",
