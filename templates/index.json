@@ -178,11 +178,7 @@
           }
         }
       },
-      "block_order": [
-        "slide_fRMHJ9",
-        "slide_A9nEWU",
-        "slide_QF6cqN"
-      ],
+      "block_order": ["slide_fRMHJ9", "slide_A9nEWU", "slide_QF6cqN"],
       "name": "Reviews Carousel",
       "settings": {
         "bg_image": "shopify://shop_images/Reviews.webp",
@@ -268,17 +264,43 @@
     "construction_Jt7KMR": {
       "type": "construction",
       "name": "Product Construction",
+      "blocks": {
+        "layer_value_brLyTc": {
+          "type": "layer_value",
+          "settings": {
+            "layer_value": "Mesh breathable stretchable fabric ensures airflow and comfort."
+          }
+        },
+        "layer_value_hFDPhV": {
+          "type": "layer_value",
+          "settings": {
+            "layer_value": "Hypoallergenic adhesive provides a strong hold on both skin and beard"
+          }
+        },
+        "layer_value_HjCh43": {
+          "type": "layer_value",
+          "settings": {
+            "layer_value": "The easy-release backing allows you to effortlessly pull apart cover"
+          }
+        }
+      },
+      "block_order": [
+        "layer_value_brLyTc",
+        "layer_value_hFDPhV",
+        "layer_value_HjCh43"
+      ],
       "settings": {
-        "title": "",
-        "text_color": "#0F0F10",
-        "layers_data_color": "#0F0F10"
+        "background_image": "shopify://shop_images/construction-bg.png",
+        "title": "Each aspect of <span>Hostage Tape</span> has been carefully designed &amp; executed to achieve the best Mouth TapING experience possible",
+        "layerd_male_image": "shopify://shop_images/Construction.png",
+        "layerd_female_image": "shopify://shop_images/female-construction.png",
+        "text_color": "#0f0f10",
+        "layers_data_color": "#0f0f10"
       }
     },
     "featured_collection_YC6W78": {
       "type": "featured-collection",
-      "custom_css": [
-        "{text-align: center;}"
-      ],
+      "custom_css": ["{text-align: center;}"],
       "name": "Featured collection",
       "settings": {
         "heading": "Mouth tape bundles",
@@ -335,9 +357,7 @@
         "collapsible_tab_PRqDxV",
         "collapsible_tab_eYNfNz"
       ],
-      "custom_css": [
-        "h1,h2,h3,h4,h5 {font-size: 2rem;}"
-      ],
+      "custom_css": ["h1,h2,h3,h4,h5 {font-size: 2rem;}"],
       "name": "Collapsible content",
       "settings": {
         "heading": "| RECLAIM YOUR SLEEP | WITH THE STRONGEST MOUTH TAPE EVER",
@@ -385,11 +405,7 @@
           }
         }
       },
-      "block_order": [
-        "step_e4G79E",
-        "step_QUdCL6",
-        "step_Xykxw7"
-      ],
+      "block_order": ["step_e4G79E", "step_QUdCL6", "step_Xykxw7"],
       "name": "SS - Steps #4",
       "settings": {
         "heading": "<h2>How it works</h2>",
@@ -548,9 +564,7 @@
           }
         }
       },
-      "block_order": [
-        "text_nKCJcP"
-      ],
+      "block_order": ["text_nKCJcP"],
       "name": "Scrolling text",
       "settings": {
         "height": "height-auto",
