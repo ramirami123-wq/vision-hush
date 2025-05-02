@@ -82,6 +82,13 @@
             "page": "",
             "custom_liquid": ""
           }
+        },
+        "complementary_zgUzpp": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Hush Mouth Tape Add Ons",
+            "product_list_limit": 1
+          }
         }
       },
       "block_order": [
@@ -92,7 +99,8 @@
         "quantity",
         "buy_buttons",
         "386f7e4a-6127-4141-928b-9cb4614ee18c",
-        "collapsible_tab_C3mRaX"
+        "collapsible_tab_C3mRaX",
+        "complementary_zgUzpp"
       ],
       "settings": {
         "enable_sticky_add_to_cart": false,
