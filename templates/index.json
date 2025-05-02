@@ -178,11 +178,7 @@
           }
         }
       },
-      "block_order": [
-        "slide_fRMHJ9",
-        "slide_A9nEWU",
-        "slide_QF6cqN"
-      ],
+      "block_order": ["slide_fRMHJ9", "slide_A9nEWU", "slide_QF6cqN"],
       "name": "Reviews Carousel",
       "settings": {
         "bg_image": "shopify://shop_images/Reviews.webp",
@@ -192,15 +188,82 @@
     "animated_paragraph_6U97Ri": {
       "type": "animated-paragraph",
       "name": "Animated Paragraph",
+      "blocks": {
+        "sentence_h9frVk": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "<strong>Mouth breathing</strong> during sleep",
+            "sentence_highlight": "circle"
+          }
+        },
+        "sentence_8kYTEJ": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "disrupts rest",
+            "sentence_highlight": "circle"
+          }
+        },
+        "sentence_wx7mf9": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "<strong>and causes snoring,</strong>",
+            "sentence_highlight": "underline"
+          }
+        },
+        "sentence_Chd7Lh": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "<strong>dry throat,</strong>",
+            "sentence_highlight": "underline"
+          }
+        },
+        "sentence_mwmkcq": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "<strong>morning headaches,</strong>",
+            "sentence_highlight": "circle"
+          }
+        },
+        "sentence_RNxcyJ": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "<strong>irritability,</strong>",
+            "sentence_highlight": "underline"
+          }
+        },
+        "sentence_D4mJ6a": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "<strong>an increase in fatigue,</strong>",
+            "sentence_highlight": "underline"
+          }
+        },
+        "sentence_Bt3KMP": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "<strong>and a decrease in energy levels.</strong>",
+            "sentence_highlight": "underline"
+          }
+        }
+      },
+      "block_order": [
+        "sentence_h9frVk",
+        "sentence_8kYTEJ",
+        "sentence_wx7mf9",
+        "sentence_Chd7Lh",
+        "sentence_mwmkcq",
+        "sentence_RNxcyJ",
+        "sentence_D4mJ6a",
+        "sentence_Bt3KMP"
+      ],
       "settings": {
-        "bg_color": "#000"
+        "bg_image": "shopify://shop_images/Frame_3916.png",
+        "bg_color": "#000000"
       }
     },
     "featured_collection_YC6W78": {
       "type": "featured-collection",
-      "custom_css": [
-        "{text-align: center;}"
-      ],
+      "custom_css": ["{text-align: center;}"],
       "name": "Featured collection",
       "settings": {
         "heading": "Mouth tape bundles",
@@ -257,9 +320,7 @@
         "collapsible_tab_PRqDxV",
         "collapsible_tab_eYNfNz"
       ],
-      "custom_css": [
-        "h1,h2,h3,h4,h5 {font-size: 2rem;}"
-      ],
+      "custom_css": ["h1,h2,h3,h4,h5 {font-size: 2rem;}"],
       "name": "Collapsible content",
       "settings": {
         "heading": "| RECLAIM YOUR SLEEP | WITH THE STRONGEST MOUTH TAPE EVER",
@@ -307,11 +368,7 @@
           }
         }
       },
-      "block_order": [
-        "step_e4G79E",
-        "step_QUdCL6",
-        "step_Xykxw7"
-      ],
+      "block_order": ["step_e4G79E", "step_QUdCL6", "step_Xykxw7"],
       "name": "SS - Steps #4",
       "settings": {
         "heading": "<h2>How it works</h2>",
@@ -470,9 +527,7 @@
           }
         }
       },
-      "block_order": [
-        "text_nKCJcP"
-      ],
+      "block_order": ["text_nKCJcP"],
       "name": "Scrolling text",
       "settings": {
         "height": "height-auto",
