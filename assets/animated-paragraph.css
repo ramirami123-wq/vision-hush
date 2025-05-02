@@ -1,69 +1,69 @@
-.animePara{
-  padding-top: 9.6rem;
-  padding-bottom: 7.2rem;
-  margin-top: -2.6rem;
+.animePara {
+  padding-top: 96px;
+  padding-bottom: 72px;
+  margin-top: -26px;
 }
 
-.animePara__heading{
+.animePara__heading {
   color: #464646;
-  max-width: 102.4rem;
+  max-width: 1024px;
 }
 
-.animePara__headingItem.active{
+.animePara__headingItem.active {
   color: var(--colorWhite);
   transition: color .8s;
 }
 
-.animePara__headingItem strong{
+.animePara__headingItem strong {
   position: relative;
   z-index: 0;
   display: inline-block;
 }
 
-.animePara__headingItem strong::after{
+.animePara__headingItem strong::after {
   position: absolute;
   content: "";
   z-index: -1;
   display: none;
 }
 
-.highlight-circle strong::after{
+.highlight-circle strong::after {
   background: url('https://cdn.shopify.com/s/files/1/0586/6520/5927/files/Scribbles_1.png') no-repeat;
   background-size: 234px 67px;
   height: 67px;
   left: -11px;
   bottom: -10px;
-  width: calc(100% + 2.5rem);
+  width: calc(100% + 25px);
 }
 
-.highlight-underline strong::after{
+.highlight-underline strong::after {
   background: url('https://cdn.shopify.com/s/files/1/0586/6520/5927/files/line.png') no-repeat;
   background-size: 100% auto;
   height: 100%;
   left: -20px;
   bottom: -28px;
-  width: calc(100% + 2.5rem);
+  width: calc(100% + 25px);
 }
 
-.animePara__headingItem.active strong::after{
+.animePara__headingItem.active strong::after {
   display: block;
 }
 
 @media only screen and (min-width: 1024px) {
-  .animePara{
-    padding-top: 14.2rem;
-    padding-bottom: 12.4rem;
-    margin-top: -3.2rem;
+  .animePara {
+    padding-top: 142px;
+    padding-bottom: 124px;
+    margin-top: -32px;
   }
 
-  .highlight-circle strong::after{
+  .highlight-circle strong::after {
     width: calc(100% + 20px);
     background-size: 100% 100%;
     bottom: 0;
     height: calc(100% + 20px);
   }
 
-  .highlight-underline strong::after{
+  .highlight-underline strong::after {
     width: calc(100% + 20px);
     background-size: 100% 100%;
     bottom: 0;
