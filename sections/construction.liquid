@@ -1,6 +1,198 @@
+{{ 'construction.css' | asset_url | stylesheet_tag }}
+{% assign _section = section.settings %}
+
+{% if product.handle == 'hostage-tape-variant' %}
+  {% if section.blocks.size != 0 %}
+    <div class="construction" x-data="construction">
+      {% if _section.title != blank %}
+        <h3 class="construction__title">
+          {{ _section.title }}
+        </h3>
+      {% endif %}
+      <div class="construction__content">
+        <div class="construction__content-data">
+          <div class="construction__list">
+            {% for block in section.blocks %}
+              {% if block.type == 'layer_value' %}
+                {%- assign _block = block.settings -%}
+                <p class="construction__item {% if forloop.index0 == 0 %}line-down{% elsif forloop.index0 == 1 %}line{% elsif forloop.index0 == 2 %}line-up{% endif %}">
+                  {{ _block.layer_value }}
+                  {% if forloop.index0 == 0 %}
+                    <svg
+                      class="desktop-svg"
+                      width="502"
+                      height="35"
+                      viewBox="0 0 502 35"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M1.5 1L322.5 1L493.5 26.5" stroke="#363EFE" stroke-width="2" stroke-linecap="round"/>
+                      <circle cx="493" cy="26" r="8" fill="#363EFE" stroke="#363EFE" stroke-width="2"/>
+                    </svg>
+                    <svg
+                      class="mobile-svg"
+                      width="234"
+                      height="49"
+                      viewBox="0 0 234 49"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M1 1H154.5L229.5 44" stroke="#363EFE" stroke-width="2" stroke-linecap="round"/>
+                      <circle cx="229" cy="44" r="4" fill="#363EFE" stroke="#363EFE" stroke-width="2"/>
+                    </svg>
+                  {% elsif forloop.index0 == 1 %}
+                    <svg
+                      class="desktop-svg"
+                      width="424"
+                      height="18"
+                      viewBox="0 0 424 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M1 9L303.75 9.00003L415 9.00004" stroke="#363EFE" stroke-width="2" stroke-linecap="round"/>
+                      <circle cx="415" cy="9" r="8" fill="#363EFE" stroke="#363EFE" stroke-width="2"/>
+                    </svg>
+                    <svg
+                      class="mobile-svg"
+                      width="246"
+                      height="12"
+                      viewBox="0 0 246 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M1 6H165.53H240.194" stroke="#363EFE" stroke-width="2" stroke-linecap="round"/>
+                      <circle cx="240" cy="6" r="5" fill="#363EFE" stroke="#363EFE" stroke-width="2"/>
+                    </svg>
+
+                  {% elsif forloop.index0 == 2 %}
+                    <svg
+                      class="desktop-svg"
+                      width="383"
+                      height="38"
+                      viewBox="0 0 383 38"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M1 37L303 37L374.5 9" stroke="#363EFE" stroke-width="2" stroke-linecap="round"/>
+                      <circle cx="374" cy="9" r="8" fill="#363EFE" stroke="#363EFE" stroke-width="2"/>
+                    </svg>
+                    <svg
+                      class="mobile-svg"
+                      width="290"
+                      height="52"
+                      viewBox="0 0 290 52"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M1 51H201.5L285 5.5" stroke="#363EFE" stroke-width="2" stroke-linecap="round"/>
+                      <circle cx="285" cy="5" r="4" fill="#363EFE" stroke="#363EFE" stroke-width="2"/>
+                    </svg>
+                  {% endif %}
+                </p>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="construction__media" id="layered-male-image" style="display: none;">
+            {% render 'responsive-image', image: _section.layerd_male_image %}
+          </div>
+          <div class="construction__media" id="layered-female-image" style="display: none;">
+            {% render 'responsive-image', image: _section.layerd_female_image %}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endif %}
+
+{% style %}
+  .mobile-svg {
+      display: none;
+    }
+
+    @media (max-width: 760px) {
+      .desktop-svg {
+        display: none;
+      }
+      .mobile-svg {
+        display: block;
+      }
+    }
+    .construction{
+        background-image: url('{{ _section.background_image | image_url:width:'768x'}}');
+    }
+
+    .construction__title{
+      color: {{ _section.text_color | default: '#0F0F10' }};
+    }
+
+    .construction__item{
+      color: {{ _section.layers_data_color | default: '#0F0F10' }};
+    }
+
+    @media (min-width: 1024px) {
+      .construction {
+        background-image: url('{{_section.background_image  | image_url:width:'1920x'}}');
+      }
+    }
+{% endstyle %}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Product Construction",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "html",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "layerd_male_image",
+      "label": "Male Layerd Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "layerd_female_image",
+      "label": "Female Layerd Image"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Title Color",
+      "default": "#0F0F10"
+    },
+    {
+      "type": "color",
+      "id": "layers_data_color",
+      "label": "Layers Data Color",
+      "default": "#0F0F10"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "layer_value",
+      "name": "Layer Value",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "layer_value",
+          "label": "Layer Value",
+          "default": "Mesh breathable stretchable fabric ensures airflow and comfort."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Construction",
+      "category": "product-construction"
+    }
+  ]
+}
 {% endschema %}
