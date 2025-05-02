@@ -73,6 +73,10 @@
 }
 
 @media (max-width: 760px) {
+  .construction__list {
+
+      font-size: 14px;
+  }
   .construction__item.line-down {
     padding-top: 10px;
   }
