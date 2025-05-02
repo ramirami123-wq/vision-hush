@@ -178,7 +178,11 @@
           }
         }
       },
-      "block_order": ["slide_fRMHJ9", "slide_A9nEWU", "slide_QF6cqN"],
+      "block_order": [
+        "slide_fRMHJ9",
+        "slide_A9nEWU",
+        "slide_QF6cqN"
+      ],
       "name": "Reviews Carousel",
       "settings": {
         "bg_image": "shopify://shop_images/Reviews.webp",
@@ -187,7 +191,6 @@
     },
     "animated_paragraph_6U97Ri": {
       "type": "animated-paragraph",
-      "name": "Animated Paragraph",
       "blocks": {
         "sentence_h9frVk": {
           "type": "sentence",
@@ -256,14 +259,17 @@
         "sentence_D4mJ6a",
         "sentence_Bt3KMP"
       ],
+      "name": "Animated Paragraph",
       "settings": {
-        "bg_image": "shopify://shop_images/Frame_3916.png",
+        "bg_image": "shopify://shop_images/Frame_3916.webp",
         "bg_color": "#000000"
       }
     },
     "featured_collection_YC6W78": {
       "type": "featured-collection",
-      "custom_css": ["{text-align: center;}"],
+      "custom_css": [
+        "{text-align: center;}"
+      ],
       "name": "Featured collection",
       "settings": {
         "heading": "Mouth tape bundles",
@@ -320,7 +326,9 @@
         "collapsible_tab_PRqDxV",
         "collapsible_tab_eYNfNz"
       ],
-      "custom_css": ["h1,h2,h3,h4,h5 {font-size: 2rem;}"],
+      "custom_css": [
+        "h1,h2,h3,h4,h5 {font-size: 2rem;}"
+      ],
       "name": "Collapsible content",
       "settings": {
         "heading": "| RECLAIM YOUR SLEEP | WITH THE STRONGEST MOUTH TAPE EVER",
@@ -368,7 +376,11 @@
           }
         }
       },
-      "block_order": ["step_e4G79E", "step_QUdCL6", "step_Xykxw7"],
+      "block_order": [
+        "step_e4G79E",
+        "step_QUdCL6",
+        "step_Xykxw7"
+      ],
       "name": "SS - Steps #4",
       "settings": {
         "heading": "<h2>How it works</h2>",
@@ -527,7 +539,9 @@
           }
         }
       },
-      "block_order": ["text_nKCJcP"],
+      "block_order": [
+        "text_nKCJcP"
+      ],
       "name": "Scrolling text",
       "settings": {
         "height": "height-auto",
