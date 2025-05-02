@@ -158,10 +158,10 @@
             "image": "shopify://shop_images/Hostage_Tape_mouth_tape_face_with_100000.png",
             "video": "shopify://files/videos/2c027977aad145759cd56cc3380600f5.HD-1080p-4.8Mbps-34909319.mp4",
             "review_stars": "5",
-            "review_title": "",
-            "review_body": "",
-            "reviewer_name": "",
-            "reviewer_profession": ""
+            "review_title": "It's definitely had a positive impact!",
+            "review_body": "It's definitely had a positive impact on not needing as much caffeine in my life!",
+            "reviewer_name": "Michael S.",
+            "reviewer_profession": "Satisfied Customer"
           }
         },
         "slide_QF6cqN": {
@@ -293,6 +293,7 @@
         "layer_value_hFDPhV",
         "layer_value_HjCh43"
       ],
+      "disabled": true,
       "name": "Product Construction",
       "settings": {
         "background_image": "shopify://shop_images/construction-bg_5a02d690-bb06-45d5-9dc7-9727aaa2706b.webp",
