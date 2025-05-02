@@ -1,7 +1,7 @@
 {{ 'construction.css' | asset_url | stylesheet_tag }}
 {% assign _section = section.settings %}
 
-{% if product.handle == 'hostage-tape-variant' %}
+
   {% if section.blocks.size != 0 %}
     <div class="construction" x-data="construction">
       {% if _section.title != blank %}
@@ -102,7 +102,7 @@
       </div>
     </div>
   {% endif %}
-{% endif %}
+
 
 {% style %}
   .mobile-svg {
