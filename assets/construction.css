@@ -191,3 +191,13 @@
       line-height: 60px;
   }
 }
+
+@media screen and (max-width: 750px){
+  .construction__content {
+    overflow: hidden;
+  }
+  .construction__media img {
+    width: 100%;
+    height: 100%
+  }
+}
