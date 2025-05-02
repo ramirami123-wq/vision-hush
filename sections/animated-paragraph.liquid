@@ -1,6 +1,92 @@
+{{ 'animated-paragraph.css' | asset_url | stylesheet_tag }}
+
+{% if section.settings.bg_image != blank %}
+  {% style %}
+    .animePara {
+      background-image: url('{{section.settings.bg_image | image_url:width:'768x'}}');
+      background-color:{{section.settings.bg_color}};
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    @media (min-width: 1024px) {
+      .animePara {
+        background-image: url('{{section.settings.bg_image | image_url:width:'1920x'}}');
+      }
+    }
+  {% endstyle %}
+{% endif %}
+
+<div class="animePara" x-data="animatedPara">
+  <div class="container">
+    {% if section.blocks.size > 0 %}
+      <h2 class="animePara__heading js-anime-headingWrap" data-items="{{section.blocks.size}}">
+        {% for block in section.blocks %}
+          {% if block.settings.sentence_copy != blank %}
+            {% assign sentence = block.settings.sentence_copy | downcase %}
+            <span
+              class="animePara__headingItem {% if forloop.index == 1 %}active{% endif %} highlight-{{block.settings.sentence_highlight}}"
+              :class="{'active': {{forloop.index | minus: 1 }} === activeSentenceIndex}"
+            >
+              {{ sentence }}
+            </span>
+          {% endif %}
+        {% endfor %}
+      </h2>
+    {% endif %}
+  </div>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Animated Paragraph",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#000"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "sentence",
+      "name": "Sentence",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "sentence_copy",
+          "label": "Sentence",
+          "info": "Bold the word that needs to be highlighted"
+        },
+        {
+          "type": "radio",
+          "id": "sentence_highlight",
+          "label": "Highlight Type",
+          "options": [
+            {
+              "value": "circle",
+              "label": "Circle"
+            },
+            {
+              "value": "underline",
+              "label": "Underline"
+            }
+          ],
+          "default": "underline"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Animated Paragraph"
+    }
+  ]
+}
 {% endschema %}
