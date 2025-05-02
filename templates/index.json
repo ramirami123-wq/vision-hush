@@ -176,28 +176,17 @@
             "reviewer_name": "",
             "reviewer_profession": ""
           }
-        },
-        "slide_nn63Hg": {
-          "type": "slide",
-          "settings": {
-            "media_type": "image",
-            "review_stars": "5",
-            "review_title": "",
-            "review_body": "",
-            "reviewer_name": "",
-            "reviewer_profession": ""
-          }
         }
       },
       "block_order": [
         "slide_fRMHJ9",
         "slide_A9nEWU",
-        "slide_QF6cqN",
-        "slide_nn63Hg"
+        "slide_QF6cqN"
       ],
       "name": "Reviews Carousel",
       "settings": {
         "bg_image": "shopify://shop_images/Reviews.webp",
+        "bg_image_mobile": "shopify://shop_images/Reviews.webp",
         "title": "<span>Trusted by 100,000+</span>\nMouth Tapers worldwide"
       }
     },
