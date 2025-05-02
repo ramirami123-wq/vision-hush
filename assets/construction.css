@@ -173,3 +173,15 @@
     padding-left: calc((100% - 1440px) / 2);
   }
 }
+
+.construction__title {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+@media screen and (min-width: 1200px){
+  .construction__title {
+      font-size: 64px;
+      line-height: 60px;
+  }
+}
