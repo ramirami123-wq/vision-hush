@@ -194,7 +194,7 @@
 
 @media screen and (max-width: 750px){
   .construction__content {
-    overflow: hidden;
+    overflow: auto;
   }
   .construction__media img {
     width: 100%;
