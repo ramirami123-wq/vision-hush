@@ -265,6 +265,15 @@
         "bg_color": "#000000"
       }
     },
+    "construction_Jt7KMR": {
+      "type": "construction",
+      "name": "Product Construction",
+      "settings": {
+        "title": "",
+        "text_color": "#0F0F10",
+        "layers_data_color": "#0F0F10"
+      }
+    },
     "featured_collection_YC6W78": {
       "type": "featured-collection",
       "custom_css": [
@@ -569,6 +578,7 @@
     "featured_product_nHAkbB",
     "reviews_carousel_eMCBcr",
     "animated_paragraph_6U97Ri",
+    "construction_Jt7KMR",
     "featured_collection_YC6W78",
     "collapsible_content_ERXABe",
     "custom_liquid_qDKxGh",
