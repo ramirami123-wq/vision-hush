@@ -35,7 +35,7 @@
 .construction__list {
   display: flex;
   flex-direction: column;
-  gap: 88px;
+  gap: 70px;
   position: absolute;
 }
 
