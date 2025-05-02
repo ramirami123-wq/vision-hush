@@ -1,3 +1,6 @@
+.construction__list > p{
+  margin-bottom: 0px
+}
 .construction {
   padding: 88px 0 88px 64px;
   background-color: #0b0b0b;
