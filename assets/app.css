@@ -208,10 +208,10 @@ html {
   box-sizing: border-box;
   font-size: 100%; }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit; }
+*:not(svg):not(svg *)::before,
+*:not(svg):not(svg *)::after {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
