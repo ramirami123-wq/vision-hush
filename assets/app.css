@@ -1270,8 +1270,9 @@ body {
   body.open-cc #shopify-chat {
     display: none; }
 
-* {
-  box-sizing: border-box; }
+*:not(svg):not(svg *) {
+  box-sizing: border-box;
+}
 
 a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
