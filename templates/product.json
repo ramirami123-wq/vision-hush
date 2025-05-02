@@ -63,6 +63,13 @@
             "show_gift_card_recipient": false
           }
         },
+        "complementary_zgUzpp": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Hush Mouth Tape Add Ons",
+            "product_list_limit": 1
+          }
+        },
         "386f7e4a-6127-4141-928b-9cb4614ee18c": {
           "type": "collapsible_tab",
           "settings": {
@@ -82,13 +89,6 @@
             "page": "",
             "custom_liquid": ""
           }
-        },
-        "complementary_zgUzpp": {
-          "type": "complementary",
-          "settings": {
-            "block_heading": "Hush Mouth Tape Add Ons",
-            "product_list_limit": 1
-          }
         }
       },
       "block_order": [
@@ -98,9 +98,9 @@
         "variant_picker",
         "quantity",
         "buy_buttons",
+        "complementary_zgUzpp",
         "386f7e4a-6127-4141-928b-9cb4614ee18c",
-        "collapsible_tab_C3mRaX",
-        "complementary_zgUzpp"
+        "collapsible_tab_C3mRaX"
       ],
       "settings": {
         "enable_sticky_add_to_cart": false,
@@ -142,547 +142,81 @@
       ],
       "name": "Product Construction",
       "settings": {
-        "background_image": "shopify://shop_images/construction-bg_5a02d690-bb06-45d5-9dc7-9727aaa2706b.webp",
+        "background_image": "shopify://shop_images/39db17a092c56703fb99fb2d8767fc96a461d199_2_689x408_9face85b-8d23-4782-bab3-b72c653a5f94.png",
         "title": "Each aspect of <span>Hostage Tape</span> has been carefully designed &amp; executed to achieve the best Mouth TapING experience possible",
         "layerd_male_image": "shopify://shop_images/Construction.webp",
         "text_color": "#0f0f10",
         "layers_data_color": "#0f0f10"
       }
     },
-    "16623877721f33fb14": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 35,
-        "spacer_desktop": 90,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "16623743398765981b": {
-      "type": "rich-text",
-      "blocks": {
-        "1662374339c00286b1-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Mouth Tape and Nose Strips to stop snoring and transform your sleep.",
-            "marker_style": "style1",
-            "size": "h1",
-            "marker_color": "#fd6262"
-          }
-        }
-      },
-      "block_order": [
-        "1662374339c00286b1-1"
-      ],
-      "settings": {
-        "text_width": "xlarge",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_heading": "#252f35",
-        "color_text": "#303c43",
-        "color_links": "#151515",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "d0a8ec14-e408-4c33-ad5a-bd6a19ccef04": {
-      "type": "background-video",
-      "blocks": {
-        "template--17918041391386__d0a8ec14-e408-4c33-ad5a-bd6a19ccef04-167689528272e1adf9-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Background Video",
-            "heading_size": "h1-large"
-          }
-        },
-        "template--17918041391386__d0a8ec14-e408-4c33-ad5a-bd6a19ccef04-167689528272e1adf9-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Background video description text</p>",
-            "description_size": "small"
-          }
-        }
-      },
-      "block_order": [
-        "template--17918041391386__d0a8ec14-e408-4c33-ad5a-bd6a19ccef04-167689528272e1adf9-1",
-        "template--17918041391386__d0a8ec14-e408-4c33-ad5a-bd6a19ccef04-167689528272e1adf9-2"
-      ],
-      "settings": {
-        "desktop_height": "desktop-height-550",
-        "mobile_height": "mobile-height-500",
-        "full_width": false,
-        "video_controls": false,
-        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "overlay_color": "#000000",
-        "overlay_opacity": 10,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
-    "7fbd88bb-4db5-40ac-9337-88c3bb39be3d": {
-      "type": "rich-text",
-      "blocks": {
-        "024106c4-7001-4fbb-b620-b9de577341fe": {
-          "type": "image",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "024106c4-7001-4fbb-b620-b9de577341fe"
-      ],
-      "settings": {
-        "text_width": "grid",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_heading": "#1a1c1d",
-        "color_text": "#2c2d2e",
-        "color_links": "#2c2d2e",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "3a444c86-680e-4deb-b870-63aec684439f": {
-      "type": "media-grid",
-      "blocks": {
-        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-0": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 2,
-            "row": 3,
-            "subheading": "",
-            "heading": "Block heading",
-            "heading_size": "h2",
-            "button_text": "Shop now",
-            "button_link": "",
-            "content_position": "top-left",
-            "text_alignment": "left",
-            "color_bg": "#303c43",
-            "color_bg_gradient": "",
-            "color_text": "#ffffff",
-            "color_link": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-1": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 1,
-            "row": 2,
-            "subheading": "",
-            "heading": "Block heading",
-            "heading_size": "h3",
-            "button_text": "",
-            "button_link": "",
-            "content_position": "top-center",
-            "text_alignment": "center",
-            "color_bg": "#3b63bd",
-            "color_bg_gradient": "",
-            "color_text": "#ffffff",
-            "color_link": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-2": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 1,
-            "row": 1,
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h3",
-            "button_text": "",
-            "button_link": "",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "color_bg": "#3f72e5",
-            "color_bg_gradient": "",
-            "color_text": "#151515",
-            "color_link": "#3f72e5",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "52402f74-ffbf-4ff7-96b3-6c6c30568c45": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 1,
-            "row": 2,
-            "subheading": "",
-            "heading": "Block heading",
-            "heading_size": "h4",
-            "button_text": "",
-            "button_link": "",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "color_bg": "#ffffff",
-            "color_bg_gradient": "",
-            "color_text": "#ffffff",
-            "color_link": "#3f72e5",
-            "overlay_color": "#392894",
-            "overlay_opacity": 52
-          }
-        },
-        "3595a460-057e-4e41-aab6-3ced52f76ef3": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 1,
-            "row": 1,
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h3",
-            "button_text": "",
-            "button_link": "",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "color_bg": "#1de1fe",
-            "color_bg_gradient": "",
-            "color_text": "#151515",
-            "color_link": "#3f72e5",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-0",
-        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-1",
-        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-2",
-        "52402f74-ffbf-4ff7-96b3-6c6c30568c45",
-        "3595a460-057e-4e41-aab6-3ced52f76ef3"
-      ],
-      "settings": {
-        "desktop_height": 220,
-        "mobile_height": 150,
-        "column_spacing": "medium",
-        "color_bg": "#ffffff",
-        "color_text": "#2c2d2e",
-        "color_link": "#3f72e5",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "0e93ba7e-195e-407f-9b80-7d265aa6e1e2": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 40,
-        "spacer_desktop": 70,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "16623873609e87da8b": {
-      "type": "multicolumn",
-      "blocks": {
-        "1662387360fb14d4f3-0": {
-          "type": "column",
-          "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "title": "Heading",
-            "text": "<p>Multicolumn description</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1662387360fb14d4f3-1": {
-          "type": "column",
-          "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "title": "Heading",
-            "text": "<p>Multicolumn description</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1662387360fb14d4f3-2": {
-          "type": "column",
-          "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "title": "Heading",
-            "text": "<p>Multicolumn description</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1662387360fb14d4f3-0",
-        "1662387360fb14d4f3-1",
-        "1662387360fb14d4f3-2"
-      ],
-      "settings": {
-        "heading": "",
-        "marker_style": "style1",
-        "description": "",
-        "columns_desktop": 3,
-        "mobile_swipe": true,
-        "image_ratio": "adapt",
-        "text_alignment": "left",
-        "heading_size": "h5",
-        "color_heading": "#1a1c1d",
-        "marker_color": "#fd6262",
-        "color_text": "#2c2d2e",
-        "color_links": "#2c2d2e",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "c4204c3f-0267-4094-942b-cbef4c9c0a87": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 0,
-        "spacer_desktop": 50,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "081e2acc-aa6a-4a72-9347-fb8bb370af80": {
-      "type": "scrolling-content",
-      "blocks": {
-        "383ea750-0663-42e7-8ab5-faef83816d22": {
-          "type": "section",
-          "settings": {
-            "badge": "",
-            "subheading": "subheading",
-            "heading": "Heading",
-            "marker_style": "style1",
-            "heading_size": "small",
-            "content": "<p>Add a descriptive text here for your slide.</p>",
-            "description_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "marker_color": "#fd6262",
-            "color_bg_badge": "#3f72e5",
-            "color_badge": "#ffffff"
-          }
-        },
-        "ef30e1e6-7bf9-4deb-b04b-15075918ba61": {
-          "type": "section",
-          "settings": {
-            "badge": "",
-            "subheading": "subheading",
-            "heading": "Heading",
-            "marker_style": "style1",
-            "heading_size": "small",
-            "content": "<p>Add a descriptive text here for your slide.</p>",
-            "description_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "marker_color": "#fd6262",
-            "color_bg_badge": "#3f72e5",
-            "color_badge": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "383ea750-0663-42e7-8ab5-faef83816d22",
-        "ef30e1e6-7bf9-4deb-b04b-15075918ba61"
-      ],
-      "settings": {
-        "desktop_layout": "text_first",
-        "mobile_swipe": true,
-        "dots": false,
-        "color_bg": "#303c43",
-        "color_heading": "#ffffff",
-        "color_text": "#d3d9df",
-        "color_links": "#3f72e5",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "d5ba2a2b-8bd0-4354-b15b-a335dd1b21ad": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 40,
-        "spacer_desktop": 70,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "245ee280-dfa9-4791-91ed-b65a153cc976": {
-      "type": "tabbed-content",
-      "blocks": {
-        "aab3af59-da6e-4438-a635-b38db53647da": {
-          "type": "tab",
-          "settings": {
-            "tab_label": "Tab label",
-            "icon": "none",
-            "text": "<p>Add a short description for this tabbed section</p>",
-            "text_columns": "1",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "15ab2a15-1840-4978-bc16-bbd27f68ea2b": {
-          "type": "tab",
-          "settings": {
-            "tab_label": "Tab label",
-            "icon": "none",
-            "text": "<p>Add a short description for this tabbed section</p>",
-            "text_columns": "1",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "897d66ee-eae4-44c6-9c00-1c378b662056": {
-          "type": "tab",
-          "settings": {
-            "tab_label": "Tab label",
-            "icon": "none",
-            "text": "<p>Add a short description for this tabbed section</p>",
-            "text_columns": "1",
-            "page": "",
-            "custom_liquid": ""
-          }
-        }
-      },
-      "block_order": [
-        "aab3af59-da6e-4438-a635-b38db53647da",
-        "15ab2a15-1840-4978-bc16-bbd27f68ea2b",
-        "897d66ee-eae4-44c6-9c00-1c378b662056"
-      ],
-      "settings": {
-        "heading": "Tabbed Content",
-        "marker_style": "style1",
-        "description": "",
-        "text_size": "small",
-        "tab_alignment": "left",
-        "text_alignment": "left",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_tabs": "#303c43",
-        "color_text": "#303c43",
-        "marker_color": "#fd6262",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "1248ec67-11cc-458d-b67b-97e43ce4f960": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 20,
-        "spacer_desktop": 65,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "1663667029efc274af": {
+    "collapsible_content_RpcjTQ": {
       "type": "collapsible-content",
       "blocks": {
-        "cd3d35fb-4237-4e0c-b360-523aae405e51": {
+        "collapsible_tab_R4P6BX": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Will i Suffocate? Nope!",
             "open": false,
-            "content": "",
+            "content": "<p><strong>Our bodies have instincts that wake us up if breathing becomes uncomfortable due to congestion. It’s a lot smarter than we give it credit for! Mouth breathing causes the blood vessels in the nose to trigger mucus production and swelling; nasal breathing helps to combat that. Hush Tape is also porous, so air can pass through if needed.</strong></p>",
             "page": "",
             "custom_liquid": ""
           }
         },
-        "5586f39f-c9cc-41a5-9c79-494141a820e1": {
+        "collapsible_tab_Wc7jPz": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Will It Save My Marriage? MAYBE...",
             "open": false,
-            "content": "",
+            "content": "<p>Ask your partner instead of us. The bottom line is that snoring and irritability from lack of sleep are major contributors to arguments. We can help with some of that.</p>",
             "page": "",
             "custom_liquid": ""
           }
         },
-        "6ca4af54-3f47-4d4d-9060-0ff238ab6d1a": {
+        "collapsible_tab_kFMpaC": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How does it work? encourages nasal breathing",
             "open": false,
-            "content": "",
+            "content": "<p>By sealing your lips, you are forced to breathe through your nose. This promotes better, more peaceful sleep for both you -and- your partner.</p>",
             "page": "",
             "custom_liquid": ""
           }
         },
-        "78977bda-88c1-4c5d-a57b-395a8e01f169": {
+        "collapsible_tab_MTTaUG": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Can Women Use Hostage Tape? HELL YES!",
             "open": false,
-            "content": "",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "6e96805a-0713-4c8f-98b5-f7f2996582ee": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "open": false,
-            "content": "",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "1c2b155f-fa55-47b7-b3ac-f2b66737ec17": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "open": false,
-            "content": "",
+            "content": "<p>Are you kidding me? Countless badass ladies use Hush Tape every night to reap the tremendous benefits of nasal breathing during sleep. </p>",
             "page": "",
             "custom_liquid": ""
           }
         }
       },
       "block_order": [
-        "cd3d35fb-4237-4e0c-b360-523aae405e51",
-        "5586f39f-c9cc-41a5-9c79-494141a820e1",
-        "6ca4af54-3f47-4d4d-9060-0ff238ab6d1a",
-        "78977bda-88c1-4c5d-a57b-395a8e01f169",
-        "6e96805a-0713-4c8f-98b5-f7f2996582ee",
-        "1c2b155f-fa55-47b7-b3ac-f2b66737ec17"
+        "collapsible_tab_R4P6BX",
+        "collapsible_tab_Wc7jPz",
+        "collapsible_tab_kFMpaC",
+        "collapsible_tab_MTTaUG"
       ],
+      "name": "Collapsible content",
       "settings": {
-        "heading": "Collapsible content",
+        "heading": "| Frequently | asked questions",
         "marker_style": "style1",
-        "description": "<p>Collapsible content description</p>",
-        "color_bg": "#3f72e5",
-        "color_heading": "#ffffff",
-        "marker_color": "#fd6262",
-        "color_text": "#f1f1f1",
-        "color_links": "#d2ff28",
-        "color_border": "#628be4",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "1662552569cce2536d": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 60,
-        "spacer_desktop": 80,
-        "border_separator": true,
-        "border_separator_full": false
+        "description": "",
+        "color_bg": "transparent",
+        "color_heading": "#1a1c1d",
+        "marker_color": "#004fff",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "color_border": "#DADCE0",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "description": "<p>Combine your style with these products</p>",
@@ -692,26 +226,49 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
+    },
+    "test_jXNQRN": {
+      "type": "test",
+      "blocks": {
+        "text_iLi3Dd": {
+          "type": "text",
+          "settings": {
+            "text": "#SHUTYOURMOUTH",
+            "link": "",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_iLi3Dd"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "10s",
+        "rotation": 0,
+        "negative_rotation": false,
+        "font_family": "heading",
+        "text_size": 56,
+        "text_uppercase": true,
+        "image_size": "large",
+        "color_bg": "transparent",
+        "color_text": "#1A1C1D",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
     }
   },
   "order": [
     "breadcrumbs",
     "main-product",
     "construction_NzNctk",
-    "16623877721f33fb14",
-    "16623743398765981b",
-    "d0a8ec14-e408-4c33-ad5a-bd6a19ccef04",
-    "7fbd88bb-4db5-40ac-9337-88c3bb39be3d",
-    "3a444c86-680e-4deb-b870-63aec684439f",
-    "0e93ba7e-195e-407f-9b80-7d265aa6e1e2",
-    "16623873609e87da8b",
-    "c4204c3f-0267-4094-942b-cbef4c9c0a87",
-    "081e2acc-aa6a-4a72-9347-fb8bb370af80",
-    "d5ba2a2b-8bd0-4354-b15b-a335dd1b21ad",
-    "245ee280-dfa9-4791-91ed-b65a153cc976",
-    "1248ec67-11cc-458d-b67b-97e43ce4f960",
-    "1663667029efc274af",
-    "1662552569cce2536d",
-    "product-recommendations"
+    "collapsible_content_RpcjTQ",
+    "product-recommendations",
+    "test_jXNQRN"
   ]
 }
