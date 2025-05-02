@@ -178,7 +178,11 @@
           }
         }
       },
-      "block_order": ["slide_fRMHJ9", "slide_A9nEWU", "slide_QF6cqN"],
+      "block_order": [
+        "slide_fRMHJ9",
+        "slide_A9nEWU",
+        "slide_QF6cqN"
+      ],
       "name": "Reviews Carousel",
       "settings": {
         "bg_image": "shopify://shop_images/Reviews.webp",
@@ -263,7 +267,6 @@
     },
     "construction_Jt7KMR": {
       "type": "construction",
-      "name": "Product Construction",
       "blocks": {
         "layer_value_brLyTc": {
           "type": "layer_value",
@@ -289,18 +292,20 @@
         "layer_value_hFDPhV",
         "layer_value_HjCh43"
       ],
+      "name": "Product Construction",
       "settings": {
-        "background_image": "shopify://shop_images/construction-bg.png",
+        "background_image": "shopify://shop_images/construction-bg_5a02d690-bb06-45d5-9dc7-9727aaa2706b.webp",
         "title": "Each aspect of <span>Hostage Tape</span> has been carefully designed &amp; executed to achieve the best Mouth TapING experience possible",
         "layerd_male_image": "shopify://shop_images/Construction.png",
-        "layerd_female_image": "shopify://shop_images/female-construction.png",
         "text_color": "#0f0f10",
         "layers_data_color": "#0f0f10"
       }
     },
     "featured_collection_YC6W78": {
       "type": "featured-collection",
-      "custom_css": ["{text-align: center;}"],
+      "custom_css": [
+        "{text-align: center;}"
+      ],
       "name": "Featured collection",
       "settings": {
         "heading": "Mouth tape bundles",
@@ -357,7 +362,9 @@
         "collapsible_tab_PRqDxV",
         "collapsible_tab_eYNfNz"
       ],
-      "custom_css": ["h1,h2,h3,h4,h5 {font-size: 2rem;}"],
+      "custom_css": [
+        "h1,h2,h3,h4,h5 {font-size: 2rem;}"
+      ],
       "name": "Collapsible content",
       "settings": {
         "heading": "| RECLAIM YOUR SLEEP | WITH THE STRONGEST MOUTH TAPE EVER",
@@ -405,7 +412,11 @@
           }
         }
       },
-      "block_order": ["step_e4G79E", "step_QUdCL6", "step_Xykxw7"],
+      "block_order": [
+        "step_e4G79E",
+        "step_QUdCL6",
+        "step_Xykxw7"
+      ],
       "name": "SS - Steps #4",
       "settings": {
         "heading": "<h2>How it works</h2>",
@@ -564,7 +575,9 @@
           }
         }
       },
-      "block_order": ["text_nKCJcP"],
+      "block_order": [
+        "text_nKCJcP"
+      ],
       "name": "Scrolling text",
       "settings": {
         "height": "height-auto",
