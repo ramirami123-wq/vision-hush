@@ -108,6 +108,42 @@
         "enable_video_looping": false
       }
     },
+    "construction_NzNctk": {
+      "type": "construction",
+      "blocks": {
+        "layer_value_UwAbpa": {
+          "type": "layer_value",
+          "settings": {
+            "layer_value": "Mesh breathable stretchable fabric ensures airflow and comfort."
+          }
+        },
+        "layer_value_jphFby": {
+          "type": "layer_value",
+          "settings": {
+            "layer_value": "Hypoallergenic adhesive provides a strong hold on both skin and beard"
+          }
+        },
+        "layer_value_JUYFA9": {
+          "type": "layer_value",
+          "settings": {
+            "layer_value": "The easy-release backing allows you to effortlessly pull apart cover"
+          }
+        }
+      },
+      "block_order": [
+        "layer_value_UwAbpa",
+        "layer_value_jphFby",
+        "layer_value_JUYFA9"
+      ],
+      "name": "Product Construction",
+      "settings": {
+        "background_image": "shopify://shop_images/construction-bg_5a02d690-bb06-45d5-9dc7-9727aaa2706b.webp",
+        "title": "Each aspect of <span>Hostage Tape</span> has been carefully designed &amp; executed to achieve the best Mouth TapING experience possible",
+        "layerd_male_image": "shopify://shop_images/Construction.webp",
+        "text_color": "#0f0f10",
+        "layers_data_color": "#0f0f10"
+      }
+    },
     "16623877721f33fb14": {
       "type": "spacer",
       "settings": {
@@ -656,6 +692,7 @@
   "order": [
     "breadcrumbs",
     "main-product",
+    "construction_NzNctk",
     "16623877721f33fb14",
     "16623743398765981b",
     "d0a8ec14-e408-4c33-ad5a-bd6a19ccef04",
