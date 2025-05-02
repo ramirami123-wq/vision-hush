@@ -70,3 +70,27 @@
     height: 22px;
   }
 }
+
+
+.animePara .container{
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    max-width: 144rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.animePara__heading {
+    color: #464646;
+    max-width: 102.4rem;
+}
+
+@media screen and (min-width: 1200px){
+  .container {
+      padding-left: 6.4rem;
+      padding-right: 6.4rem;
+  }
+  .animePara__heading {
+      font-size: 7.2rem;
+        line-height: 7.2rem;
+  }
+}
