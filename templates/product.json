@@ -188,6 +188,141 @@
         "disable_bottom_spacing": false
       }
     },
+    "ks_ANaH9b": {
+      "type": "ks",
+      "blocks": {
+        "item_jwfFAe": {
+          "type": "item",
+          "settings": {
+            "icon": "shop",
+            "custom_icon": "shopify://shop_images/moon.png",
+            "heading": "Sleep",
+            "text": "<p>Hush Tape encourages nasal breathing to reduce snoring, promoting a deeper, more restorative sleep, and leading to a quieter sleep environment so you and your partner can get the sleep you deserve</p>",
+            "image": "shopify://shop_images/image3.png"
+          }
+        },
+        "item_y7aPFR": {
+          "type": "item",
+          "settings": {
+            "icon": "atc",
+            "heading": "Feature 2",
+            "text": "<ul><li>Describe a key feature in detail.</li></ul>"
+          }
+        },
+        "item_BcxAga": {
+          "type": "item",
+          "settings": {
+            "icon": "atc",
+            "heading": "Feature 3",
+            "text": "<ul><li>Describe a key feature in detail.</li></ul>"
+          }
+        },
+        "item_VV4rad": {
+          "type": "item",
+          "settings": {
+            "icon": "atc",
+            "heading": "Feature 4",
+            "text": "<ul><li>Describe a key feature in detail.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "item_jwfFAe",
+        "item_y7aPFR",
+        "item_BcxAga",
+        "item_VV4rad"
+      ],
+      "name": "SS - Feature #15",
+      "settings": {
+        "heading": "<h1>Hostage Tape: the ultimate solution for reduced snoring and better sleep</h1>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 24,
+        "heading_size_mobile": 30,
+        "heading_height": 130,
+        "heading_align_mobile": "center",
+        "tabs_radius": 6,
+        "tabs_border_thickness": 0,
+        "tabs_mt_mobile": 24,
+        "tab_padding_vertical": 10,
+        "tab_padding_vertical_mobile": 10,
+        "tab_padding_horizontal": 14,
+        "tab_padding_horizontal_mobile": 14,
+        "tab_icon_size": 24,
+        "tab_icon_size_mobile": 24,
+        "tab_custom": false,
+        "tab_font": "josefin_sans_n4",
+        "tab_size": 14,
+        "tab_height": 100,
+        "slider_mt": 40,
+        "slider_mt_mobile": 40,
+        "slide_gap": 32,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "center",
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 32,
+        "sub_heading_size_mobile": 30,
+        "sub_heading_height": 130,
+        "sub_heading_mt": 20,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 18,
+        "text_height": 150,
+        "text_mt": 16,
+        "text_mt_mobile": 16,
+        "list_item_icon_size": 16,
+        "list_item_icon_size_mobile": 16,
+        "slide_image_position": "right",
+        "slide_image_radius": 12,
+        "slide_image_border_thickness": 0,
+        "slide_image_mt_mobile": 20,
+        "slide_image_ratio": "square",
+        "slide_image_ratio_mobile": "square",
+        "arrow_size": 48,
+        "arrow_size_mobile": 48,
+        "arrow_icon_size": 8,
+        "arrow_icon_size_mobile": 8,
+        "arrow_border_thickness": 1,
+        "arrow_hover_effect": "arrow",
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "tabs_border_color": "#000000",
+        "tab_color": "#000000",
+        "tab_hover_color": "#000000",
+        "tab_active_color": "#000000",
+        "tab_bg_color": "#F9F6F1",
+        "tab_bg_hover_color": "#ede6db",
+        "tab_bg_active_color": "#FBB163",
+        "slide_image_border_color": "#000000",
+        "sub_heading_color": "#000000",
+        "text_color": "#000000",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#000000",
+        "arrow_bg_color": "",
+        "arrow_bg_hover_color": "",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 10,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "collapsible_content_RpcjTQ": {
       "type": "collapsible-content",
       "blocks": {
@@ -327,6 +462,7 @@
     "main-product",
     "construction_NzNctk",
     "testimonials_9f6VPB",
+    "ks_ANaH9b",
     "collapsible_content_RpcjTQ",
     "product-recommendations",
     "1746200713507a4f96",
