@@ -1,6 +1,6 @@
 
 
-.animePara__headingItem{
+.animePara__headingItem,.animePara__heading{
   font-family: var(--headingFontani)
     margin: 0;
     text-transform: uppercase;
