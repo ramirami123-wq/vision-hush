@@ -203,7 +203,7 @@
         "sentence_8kYTEJ": {
           "type": "sentence",
           "settings": {
-            "sentence_copy": "disrupts rest",
+            "sentence_copy": "<strong>disrupts rest</strong>",
             "sentence_highlight": "underline"
           }
         },
