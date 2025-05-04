@@ -1,11 +1,7 @@
-  @font-face {
-    font-family: 'Franchise-Bd';
-    font-display: swap;
-    src: url('{{"Franchise-Bold.woff2" | asset_url}}') format('woff2');
-  }
+
 
 .animePara__headingItem{
-  font-family: 'Franchise-Bd'
+  font-family: var(--headingFontani)
 }
 .animePara {
   padding-top: 96px;
