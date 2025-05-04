@@ -1,17 +1,17 @@
 
-
+/* 
 .animePara__headingItem,.animePara__heading{
   font-family: var(--headingFontani);
     margin: 0;
     text-transform: uppercase;
     font-weight: 700;
     font-synthesis: none;
-}
+} */
 .animePara {
   padding-top: 96px;
   padding-bottom: 72px;
   margin-top: -26px;
-  font-family: 'Franchise-Bd'
+  /* font-family: 'Franchise-Bd' */
 }
 
 .animePara__heading {
