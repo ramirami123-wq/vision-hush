@@ -301,17 +301,17 @@
         "tab_bg_color": "#f9f9f9",
         "tab_bg_hover_color": "#e9e9e9",
         "tab_bg_active_color": "#004fff",
-        "slide_image_border_color": "#000000",
-        "sub_heading_color": "#000000",
-        "text_color": "#000000",
-        "arrow_color": "#000000",
-        "arrow_hover_color": "#000000",
+        "slide_image_border_color": "#ffffff",
+        "sub_heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "arrow_color": "#ffffff",
+        "arrow_hover_color": "#ffffff",
         "arrow_bg_color": "",
         "arrow_bg_hover_color": "",
-        "arrow_border_color": "#000000",
-        "arrow_border_hover_color": "#000000",
-        "heading_color": "#000000",
-        "background_color": "#FFFFFF",
+        "arrow_border_color": "#ffffff",
+        "arrow_border_hover_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "background_color": "#000000",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -327,6 +327,67 @@
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": true
+      }
+    },
+    "text_with_icons_gKaT9a": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_VjMp8F": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify://shop_images/banner1.png",
+            "heading": "Hypoallergenic",
+            "text": ""
+          }
+        },
+        "icon_hBQzXf": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify://shop_images/banner4.png",
+            "heading": "Stretchable",
+            "text": ""
+          }
+        },
+        "icon_xNKFgt": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify://shop_images/banner2.png",
+            "heading": "Breathable",
+            "text": ""
+          }
+        },
+        "icon_L3bPm6": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify://shop_images/banner3.png",
+            "heading": "Strong & Skin Friendly",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_VjMp8F",
+        "icon_hBQzXf",
+        "icon_xNKFgt",
+        "icon_L3bPm6"
+      ],
+      "custom_css": [],
+      "name": "Text with icons",
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": false,
+        "color_bg": "#000000",
+        "color_heading": "#ffffff",
+        "color_text": "#ffffff",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "collapsible_content_RpcjTQ": {
@@ -469,6 +530,7 @@
     "construction_NzNctk",
     "testimonials_9f6VPB",
     "ks_ANaH9b",
+    "text_with_icons_gKaT9a",
     "collapsible_content_RpcjTQ",
     "product-recommendations",
     "1746200713507a4f96",
