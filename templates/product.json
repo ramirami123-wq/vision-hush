@@ -205,24 +205,30 @@
           "type": "item",
           "settings": {
             "icon": "atc",
+            "custom_icon": "shopify://shop_images/beard.png",
             "heading": "Beard Friendly!",
-            "text": "<p>With an adhesive specifically dialed up to withstand the manliest of beards, Hush Tape is the only choice for those looking for great sleep and decreased snoring... without sacrificing their beards.</p>"
+            "text": "<p>With an adhesive specifically dialed up to withstand the manliest of beards, Hush Tape is the only choice for those looking for great sleep and decreased snoring... without sacrificing their beards.</p>",
+            "image": "shopify://shop_images/image-card12.png"
           }
         },
         "item_BcxAga": {
           "type": "item",
           "settings": {
             "icon": "atc",
-            "heading": "Feature 3",
-            "text": "<ul><li>Describe a key feature in detail.</li></ul>"
+            "custom_icon": "shopify://shop_images/wedding-couple.png",
+            "heading": "Lets you Close!",
+            "text": "<p>Hush Tape is strong enough to hold your beard through the night, but our breathable material means a comfortable, secure fit for easy breathing and undisturbed sleep.  Easy removal in the morning.</p>",
+            "image": "shopify://shop_images/unlock-offer.png"
           }
         },
         "item_VV4rad": {
           "type": "item",
           "settings": {
             "icon": "atc",
-            "heading": "Feature 4",
-            "text": "<ul><li>Describe a key feature in detail.</li></ul>"
+            "custom_icon": "shopify://shop_images/clean.png",
+            "heading": "Oral Health",
+            "text": "<p>By keeping your mouth closed, Hush Tape prevents dry mouth, supports healthy saliva production, and reduces oral health risks.</p>",
+            "image": "shopify://shop_images/Rectangle_3257_1.png"
           }
         }
       },
