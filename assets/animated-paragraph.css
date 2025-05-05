@@ -17,6 +17,7 @@
 .animePara__heading {
   color: #464646;
   max-width: 1024px;
+  font-size: 42px
 }
 
 .animePara__headingItem.active {
