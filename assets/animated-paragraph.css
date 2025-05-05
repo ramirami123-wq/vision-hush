@@ -1,12 +1,12 @@
 
 
-/* .animePara__headingItem,.animePara__heading{
+.animePara__headingItem,.animePara__heading{
   font-family: var(--headingFontani);
     margin: 0;
     text-transform: uppercase;
     font-weight: 700;
     font-synthesis: none;
-} */
+}
 .animePara {
   padding-top: 96px;
   padding-bottom: 72px;
