@@ -108,6 +108,12 @@
           "settings": {
             "show_dynamic_checkout": false
           }
+        },
+        "custom_liquid_9xPJNq": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<head>\n  <!-- Include Font Awesome -->\n  <link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css\" rel=\"stylesheet\">\n</head>\n\n<div style=\"display: flex; justify-content: space-around; margin-top: 15px; text-align: center; font-size: 14px;margin-bottom:0.9rem;\">\n  <div style=\"flex: 1;\">\n    <span style=\"color: black; font-size: 18px;\"><i class=\"fas fa-check\"></i></span><br>\n    <span>30-day Money<br>Back Guarantee</span>\n  </div>\n  <div style=\"flex: 1;\">\n    <span style=\"color: black; font-size: 18px;\"><i class=\"fas fa-check\"></i></span><br>\n    <span>HSA/FSA<br>eligible</span>\n  </div>\n  <div style=\"flex: 1;\">\n    <span style=\"color: black; font-size: 18px;\"><i class=\"fas fa-check\"></i></span><br>\n    <span>Backed by Doctors</span>\n  </div>\n</div>"
+          }
         }
       },
       "block_order": [
@@ -115,7 +121,8 @@
         "custom_liquid_aJUpcT",
         "variant_picker_dKtmEb",
         "quantity_H3UY8Q",
-        "buy_buttons_93Vi6B"
+        "buy_buttons_93Vi6B",
+        "custom_liquid_9xPJNq"
       ],
       "name": "Featured product",
       "settings": {
