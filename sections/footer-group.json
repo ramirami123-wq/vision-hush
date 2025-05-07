@@ -14,19 +14,11 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "d402e6d5-9d79-43ad-900a-cfaddc6cd9f8": {
-          "type": "menu",
-          "settings": {
-            "column_size": "small",
-            "title": "Company",
-            "menu": "main-menu"
-          }
-        },
         "055d0c35-3f11-4f51-9e3d-eab55edb7a9b": {
           "type": "menu",
           "settings": {
             "column_size": "small",
-            "title": "Resources",
+            "title": "Menu",
             "menu": "main-menu"
           }
         },
@@ -37,12 +29,20 @@
             "title": "Subscribe to our newsletter",
             "text": ""
           }
+        },
+        "custom_liquid_3dAn7q": {
+          "type": "custom_liquid",
+          "settings": {
+            "column_size": "large",
+            "title": "",
+            "custom_liquid": "<div style=\"display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px; padding: 24px; border: 1px solid #3d3d3d; border-radius: 10px; background-color: #000; color: white; font-family: sans-serif; max-width: 500px; width: 100%; box-sizing: border-box;\">\n\n  <div style=\"flex: 1 1 0%; font-size: 14px; line-height: 1.6;\">\nIMPORTANT DISCLAIMER<BR><br>\n    While Hush Tape is generally safe, do not use Hush Tape if you have trouble breathing through your nose. Do not use by itself without a CPAP if you are obese (BMI over 35) or if you have very low blood pressure. \n  </div>\n</div>"
+          }
         }
       },
       "block_order": [
-        "d402e6d5-9d79-43ad-900a-cfaddc6cd9f8",
         "055d0c35-3f11-4f51-9e3d-eab55edb7a9b",
-        "2ab8345e-9f63-4c80-b028-f4edae3633b5"
+        "2ab8345e-9f63-4c80-b028-f4edae3633b5",
+        "custom_liquid_3dAn7q"
       ],
       "settings": {
         "footer_reveal_animation": true,
