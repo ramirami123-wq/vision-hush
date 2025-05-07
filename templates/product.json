@@ -63,11 +63,10 @@
             "show_gift_card_recipient": false
           }
         },
-        "complementary_zgUzpp": {
-          "type": "complementary",
+        "custom_liquid_Czjm9W": {
+          "type": "custom_liquid",
           "settings": {
-            "block_heading": "Hush Mouth Tape Add Ons",
-            "product_list_limit": 1
+            "custom_liquid": "<div style=\"text-align:center;font-size:1rem;margin-top:-1rem;margin-bottom:1rem;\">1000+ bought in past month</div>"
           }
         },
         "386f7e4a-6127-4141-928b-9cb4614ee18c": {
@@ -89,6 +88,13 @@
             "page": "",
             "custom_liquid": ""
           }
+        },
+        "complementary_zgUzpp": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Hush Mouth Tape Add Ons",
+            "product_list_limit": 1
+          }
         }
       },
       "block_order": [
@@ -98,9 +104,10 @@
         "variant_picker",
         "quantity",
         "buy_buttons",
-        "complementary_zgUzpp",
+        "custom_liquid_Czjm9W",
         "386f7e4a-6127-4141-928b-9cb4614ee18c",
-        "collapsible_tab_C3mRaX"
+        "collapsible_tab_C3mRaX",
+        "complementary_zgUzpp"
       ],
       "settings": {
         "enable_sticky_add_to_cart": false,
