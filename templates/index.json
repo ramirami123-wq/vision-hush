@@ -541,13 +541,35 @@
             "page": "",
             "custom_liquid": ""
           }
+        },
+        "collapsible_tab_YBCzAF": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I Mouth Tape With a Deviated Septum? YEP!",
+            "open": false,
+            "content": "<p>You <em>can</em> use <strong>Hush Tape</strong> if you have a deviated septum, however mouth tape may not be the solution for everyone. We always recommend \"practicing\" to make sure mouth tape will work for you. It may not. Some users wear <strong>Hush Tape</strong> during the day until they feel comfortable using it through the night. We have users that have seen a difference in their deviated septum after using <strong>Hush Tape</strong>.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_jwYQJb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How is Hostage Tape Better? You obviously haven’t tried it!",
+            "open": false,
+            "content": "<p><strong>Hush Tape is the best mouth tape on the planet – full stop.</strong><br/><br/>Why? Because it’s a completely unique fabric, shape, adhesive, and experience. It’s stronger than other tapes, yet so comfortable most users forget they’re wearing it. Made with medical-grade, hypoallergenic material and acrylic adhesive without latex, <strong>Hush Tape</strong> is porous, safe on skin, and strong enough for facial hair and strong jaws!<br/><br/></p>",
+            "page": "",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
         "collapsible_tab_7hJEna",
         "collapsible_tab_m9zdKn",
         "collapsible_tab_mMbqQX",
-        "collapsible_tab_MEpdWX"
+        "collapsible_tab_MEpdWX",
+        "collapsible_tab_YBCzAF",
+        "collapsible_tab_jwYQJb"
       ],
       "name": "Collapsible content",
       "settings": {
