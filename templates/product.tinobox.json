@@ -21,6 +21,7 @@
       "blocks": {
         "custom_liquid_iYyaCY": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<span style=\"display: inline-block; padding: 2px 10px; background-color: #0033ff; color: #ffffff; font-size: 12px; font-weight: bold; border-radius: 999px; text-transform: uppercase; letter-spacing: 0.5px;margin-bottom:1rem;\">\n  LIMITED QUANTITY\n</span>"
           }
@@ -36,7 +37,7 @@
         "custom_liquid_zUV3U9": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!-- 1 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Wake Up Refreshed & Energized</span>\n</div>\n\n<!-- 2 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Naturally Reduces Snoring</span>\n</div>\n\n<!-- 3 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Breathe Better, Sleep Deeper</span>\n</div>\n\n<!-- 4 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Enhances Focus & Recovery</span>\n</div>\n\n<!-- 5 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Improve Athletic Performance</span>\n</div>\n\n<!-- 6 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Healthier Lips</span>\n</div>\n\n<!-- 7 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Promotes a More Defined Jawline</span>\n</div>"
+            "custom_liquid": "<!-- 1 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Store up to 30 strips</span>\n</div>\n\n<!-- 2 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Aluminum</span>\n</div>\n\n<!-- 3 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Does Not Include Hostage Tape</span>\n</div>"
           }
         },
         "variant_picker": {
@@ -77,6 +78,7 @@
         },
         "386f7e4a-6127-4141-928b-9cb4614ee18c": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Product Description",
             "open": false,
@@ -87,6 +89,7 @@
         },
         "collapsible_tab_C3mRaX": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "How To Apply",
             "open": false,
@@ -154,6 +157,7 @@
         "layer_value_jphFby",
         "layer_value_JUYFA9"
       ],
+      "disabled": true,
       "name": "Product Construction",
       "settings": {
         "background_image": "shopify://shop_images/39db17a092c56703fb99fb2d8767fc96a461d199_2_689x408_9face85b-8d23-4782-bab3-b72c653a5f94.png",
@@ -252,6 +256,7 @@
         "item_BcxAga",
         "item_VV4rad"
       ],
+      "disabled": true,
       "name": "SS - Feature #15",
       "settings": {
         "heading": "<h1>Hostage Tape: the ultimate solution for reduced snoring and better sleep</h1>",
@@ -389,6 +394,7 @@
         "icon_xNKFgt",
         "icon_L3bPm6"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "Text with icons",
       "settings": {
@@ -413,7 +419,7 @@
             "text": "HUSH TAPE VS OTHERS",
             "marker_style": "style1",
             "size": "h3",
-            "marker_color": "#FD6262"
+            "marker_color": "#fd6262"
           }
         }
       },
@@ -425,7 +431,7 @@
         "text_width": "medium",
         "text_position": "center",
         "text_alignment": "center",
-        "color_bg": "transparent",
+        "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#1a1c1d",
         "color_text": "#2c2d2e",
         "color_links": "#2c2d2e",
