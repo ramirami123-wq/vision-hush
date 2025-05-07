@@ -1,0 +1,616 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "custom_css": [
+        "* {color: white;}"
+      ],
+      "settings": {}
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "custom_liquid_iYyaCY": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"display: inline-block; padding: 2px 10px; background-color: #0033ff; color: #ffffff; font-size: 12px; font-weight: bold; border-radius: 999px; text-transform: uppercase; letter-spacing: 0.5px;margin-bottom:1rem;\">\n  LIMITED QUANTITY\n</span>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": true,
+            "show_products_rating_average": true,
+            "show_custom_badges": true
+          }
+        },
+        "custom_liquid_zUV3U9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- 1 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Wake Up Refreshed & Energized</span>\n</div>\n\n<!-- 2 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Naturally Reduces Snoring</span>\n</div>\n\n<!-- 3 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Breathe Better, Sleep Deeper</span>\n</div>\n\n<!-- 4 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Enhances Focus & Recovery</span>\n</div>\n\n<!-- 5 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Improve Athletic Performance</span>\n</div>\n\n<!-- 6 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Healthier Lips</span>\n</div>\n\n<!-- 7 -->\n<div style=\"display: flex; align-items: center; margin-bottom: 10px;\">\n  <svg fill=\"#000000\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-right: 8px;\">\n    <path d=\"M1224,312a12,12,0,1,1,3.32-23.526l-1.08,1.788A10,10,0,1,0,1234,300a9.818,9.818,0,0,0-.59-3.353l1.27-2.108A11.992,11.992,0,0,1,1224,312Zm0.92-8.631a0.925,0.925,0,0,1-.22.355,0.889,0.889,0,0,1-.72.259,0.913,0.913,0,0,1-.94-0.655l-3.82-3.818a0.9,0.9,0,0,1,1.27-1.271l3.25,3.251,7.39-10.974a1,1,0,0,1,1.38-.385,1.051,1.051,0,0,1,.36,1.417Z\" transform=\"translate(-1212 -288)\"/>\n  </svg>\n  <span>Promotes a More Defined Jawline</span>\n</div>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "color_picker_use_variants": false,
+            "variant_is_disabled": true,
+            "sizing_guide_variant": "Size",
+            "sizing_guide_text": "",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": ""
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "custom_liquid_Czjm9W": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"text-align:center;font-size:1rem;margin-top:-1rem;margin-bottom:1rem;\">1000+ bought in past month</div>"
+          }
+        },
+        "custom_liquid_FqcLBq": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<head>\n  <!-- Include Font Awesome -->\n  <link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css\" rel=\"stylesheet\">\n</head>\n\n<div style=\"display: flex; justify-content: space-around; margin-top: 15px; text-align: center; font-size: 14px;margin-bottom:0.9rem;\">\n  <div style=\"flex: 1;\">\n    <span style=\"color: black; font-size: 18px;\"><i class=\"fas fa-check\"></i></span><br>\n    <span>30-day Money<br>Back Guarantee</span>\n  </div>\n  <div style=\"flex: 1;\">\n    <span style=\"color: black; font-size: 18px;\"><i class=\"fas fa-check\"></i></span><br>\n    <span>HSA/FSA<br>eligible</span>\n  </div>\n  <div style=\"flex: 1;\">\n    <span style=\"color: black; font-size: 18px;\"><i class=\"fas fa-check\"></i></span><br>\n    <span>Backed by Doctors</span>\n  </div>\n</div>"
+          }
+        },
+        "386f7e4a-6127-4141-928b-9cb4614ee18c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Description",
+            "open": false,
+            "content": "<ul><li>Breathable fabric that allows air to rush in only during a crisis.</li><li>30 mouth tapes per pouch to #ShutYourMouth.</li><li>Comfort so stealthy, it's like a ninja on a silent night.</li><li>Grip so sturdy, it could arm wrestle a lumberjack and win.</li><li>CPAP-friendly, because we're all about making friends.</li><li>So simple, you could do it with your eyes closed. No, really!</li><li>As low as $.55 cents / day for your life-changing sleep.</li><li>100% Money back guarantee</li></ul>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_C3mRaX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How To Apply",
+            "open": false,
+            "content": "<p><strong>1. Peel Backing Strip</strong><br/>Pull strip's sides apart to separate backing and expose adhesive.</p><p><br/><strong>2. Applying Tape</strong><br/>Apply to dry and pursed lips & massage the tape to secure its position.</p><p><br/><strong>3. Ultimate Sleep Comfort</strong><br/>Enjoy a restful night's sleep with the world's most flexible & comfortable mouth tape.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "complementary_zgUzpp": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Hush Mouth Tape Add Ons",
+            "product_list_limit": 1
+          }
+        }
+      },
+      "block_order": [
+        "custom_liquid_iYyaCY",
+        "title",
+        "custom_liquid_zUV3U9",
+        "variant_picker",
+        "quantity",
+        "buy_buttons",
+        "custom_liquid_Czjm9W",
+        "custom_liquid_FqcLBq",
+        "386f7e4a-6127-4141-928b-9cb4614ee18c",
+        "collapsible_tab_C3mRaX",
+        "complementary_zgUzpp"
+      ],
+      "settings": {
+        "enable_sticky_add_to_cart": false,
+        "show_taxes_included": true,
+        "thumbnail_position": "left",
+        "media_aspect_ratio": "adapt",
+        "display_captions": true,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false
+      }
+    },
+    "construction_NzNctk": {
+      "type": "construction",
+      "blocks": {
+        "layer_value_UwAbpa": {
+          "type": "layer_value",
+          "settings": {
+            "layer_value": "Mesh breathable stretchable fabric ensures airflow and comfort."
+          }
+        },
+        "layer_value_jphFby": {
+          "type": "layer_value",
+          "settings": {
+            "layer_value": "Hypoallergenic adhesive provides a strong hold on both skin and beard"
+          }
+        },
+        "layer_value_JUYFA9": {
+          "type": "layer_value",
+          "settings": {
+            "layer_value": "The easy-release backing allows you to effortlessly pull apart cover"
+          }
+        }
+      },
+      "block_order": [
+        "layer_value_UwAbpa",
+        "layer_value_jphFby",
+        "layer_value_JUYFA9"
+      ],
+      "name": "Product Construction",
+      "settings": {
+        "background_image": "shopify://shop_images/39db17a092c56703fb99fb2d8767fc96a461d199_2_689x408_9face85b-8d23-4782-bab3-b72c653a5f94.png",
+        "title": "Each aspect of <span>Hush Tape</span> has been carefully designed &amp; executed to achieve the best Mouth TapING experience possible",
+        "layerd_male_image": "shopify://shop_images/Construction.webp",
+        "text_color": "#0f0f10",
+        "layers_data_color": "#0f0f10"
+      }
+    },
+    "testimonials_9f6VPB": {
+      "type": "testimonials",
+      "blocks": {
+        "quote_rgP4kr": {
+          "type": "quote",
+          "settings": {
+            "stars": "",
+            "text": "Been using other mouth tape to sleep for over a year. This is by far the best and stays on when others don’t because of facial hair… Hush Tape stays on comfortably through the whole night.",
+            "author": "Omar L."
+          }
+        },
+        "quote_mAek3P": {
+          "type": "quote",
+          "settings": {
+            "stars": "",
+            "text": "For years, I struggled with tapes that would either fall off during the night or simply couldn't adhere properly to my mustache and beard. It was frustrating to say the least.  Then I discovered Hush Tape.",
+            "author": "Rami S."
+          }
+        }
+      },
+      "block_order": [
+        "quote_rgP4kr",
+        "quote_mAek3P"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "heading": "Trusted by 100,000+ Mouth Tapers worldwide",
+        "full_width": true,
+        "text_size": "medium",
+        "font_family": "heading",
+        "pagination": "dots",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#f5f5f5",
+        "color_text": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "ks_ANaH9b": {
+      "type": "ks",
+      "blocks": {
+        "item_jwfFAe": {
+          "type": "item",
+          "settings": {
+            "icon": "shop",
+            "custom_icon": "shopify://shop_images/moon.png",
+            "heading": "Sleep",
+            "text": "<p>Hush Tape encourages nasal breathing to reduce snoring, promoting a deeper, more restorative sleep, and leading to a quieter sleep environment so you and your partner can get the sleep you deserve</p>",
+            "image": "shopify://shop_images/image3.png"
+          }
+        },
+        "item_y7aPFR": {
+          "type": "item",
+          "settings": {
+            "icon": "atc",
+            "custom_icon": "shopify://shop_images/beard.png",
+            "heading": "Beard Friendly!",
+            "text": "<p>With an adhesive specifically dialed up to withstand the manliest of beards, Hush Tape is the only choice for those looking for great sleep and decreased snoring... without sacrificing their beards.</p>",
+            "image": "shopify://shop_images/image-card12.png"
+          }
+        },
+        "item_BcxAga": {
+          "type": "item",
+          "settings": {
+            "icon": "atc",
+            "custom_icon": "shopify://shop_images/wedding-couple.png",
+            "heading": "Lets you Close!",
+            "text": "<p>Hush Tape is strong enough to hold your beard through the night, but our breathable material means a comfortable, secure fit for easy breathing and undisturbed sleep.  Easy removal in the morning.</p>",
+            "image": "shopify://shop_images/unlock-offer.png"
+          }
+        },
+        "item_VV4rad": {
+          "type": "item",
+          "settings": {
+            "icon": "atc",
+            "custom_icon": "shopify://shop_images/clean.png",
+            "heading": "Oral Health",
+            "text": "<p>By keeping your mouth closed, Hush Tape prevents dry mouth, supports healthy saliva production, and reduces oral health risks.</p>",
+            "image": "shopify://shop_images/Rectangle_3257_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "item_jwfFAe",
+        "item_y7aPFR",
+        "item_BcxAga",
+        "item_VV4rad"
+      ],
+      "name": "SS - Feature #15",
+      "settings": {
+        "heading": "<h1>Hostage Tape: the ultimate solution for reduced snoring and better sleep</h1>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 24,
+        "heading_size_mobile": 30,
+        "heading_height": 130,
+        "heading_align_mobile": "center",
+        "tabs_radius": 6,
+        "tabs_border_thickness": 0,
+        "tabs_mt_mobile": 24,
+        "tab_padding_vertical": 10,
+        "tab_padding_vertical_mobile": 10,
+        "tab_padding_horizontal": 14,
+        "tab_padding_horizontal_mobile": 14,
+        "tab_icon_size": 24,
+        "tab_icon_size_mobile": 24,
+        "tab_custom": false,
+        "tab_font": "josefin_sans_n4",
+        "tab_size": 14,
+        "tab_height": 100,
+        "slider_mt": 40,
+        "slider_mt_mobile": 40,
+        "slide_gap": 32,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "center",
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 32,
+        "sub_heading_size_mobile": 30,
+        "sub_heading_height": 130,
+        "sub_heading_mt": 20,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 18,
+        "text_height": 150,
+        "text_mt": 16,
+        "text_mt_mobile": 16,
+        "list_item_icon_size": 16,
+        "list_item_icon_size_mobile": 16,
+        "slide_image_position": "right",
+        "slide_image_radius": 12,
+        "slide_image_border_thickness": 0,
+        "slide_image_mt_mobile": 20,
+        "slide_image_ratio": "square",
+        "slide_image_ratio_mobile": "square",
+        "arrow_size": 48,
+        "arrow_size_mobile": 48,
+        "arrow_icon_size": 8,
+        "arrow_icon_size_mobile": 8,
+        "arrow_border_thickness": 1,
+        "arrow_hover_effect": "arrow",
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "tabs_border_color": "#000000",
+        "tab_color": "#000000",
+        "tab_hover_color": "#000000",
+        "tab_active_color": "#ffffff",
+        "tab_bg_color": "#f9f9f9",
+        "tab_bg_hover_color": "#e9e9e9",
+        "tab_bg_active_color": "#004fff",
+        "slide_image_border_color": "#ffffff",
+        "sub_heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "arrow_color": "#ffffff",
+        "arrow_hover_color": "#ffffff",
+        "arrow_bg_color": "",
+        "arrow_bg_hover_color": "",
+        "arrow_border_color": "#ffffff",
+        "arrow_border_hover_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 10,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "text_with_icons_gKaT9a": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_VjMp8F": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify://shop_images/banner1.png",
+            "heading": "Hypoallergenic",
+            "text": ""
+          }
+        },
+        "icon_hBQzXf": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify://shop_images/banner4.png",
+            "heading": "Stretchable",
+            "text": ""
+          }
+        },
+        "icon_xNKFgt": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify://shop_images/banner2.png",
+            "heading": "Breathable",
+            "text": ""
+          }
+        },
+        "icon_L3bPm6": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify://shop_images/banner3.png",
+            "heading": "Strong & Skin Friendly",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_VjMp8F",
+        "icon_hBQzXf",
+        "icon_xNKFgt",
+        "icon_L3bPm6"
+      ],
+      "custom_css": [],
+      "name": "Text with icons",
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": false,
+        "color_bg": "#000000",
+        "color_heading": "#ffffff",
+        "color_text": "#ffffff",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_jUWedU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dwx9cD": {
+          "type": "heading",
+          "settings": {
+            "text": "HUSH TAPE VS OTHERS",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#FD6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dwx9cD"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_gjEygg": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/Blue_Modern_Business_Table_Comparison_Chart.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "collapsible_content_RpcjTQ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_R4P6BX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Will i Suffocate? Nope!",
+            "open": false,
+            "content": "<p><strong>Our bodies have instincts that wake us up if breathing becomes uncomfortable due to congestion. It’s a lot smarter than we give it credit for! Mouth breathing causes the blood vessels in the nose to trigger mucus production and swelling; nasal breathing helps to combat that. Hush Tape is also porous, so air can pass through if needed.</strong></p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_Wc7jPz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Will It Save My Marriage? MAYBE...",
+            "open": false,
+            "content": "<p>Ask your partner instead of us. The bottom line is that snoring and irritability from lack of sleep are major contributors to arguments. We can help with some of that.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_kFMpaC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How does it work? encourages nasal breathing",
+            "open": false,
+            "content": "<p>By sealing your lips, you are forced to breathe through your nose. This promotes better, more peaceful sleep for both you -and- your partner.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_MTTaUG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can Women Use Hostage Tape? HELL YES!",
+            "open": false,
+            "content": "<p>Are you kidding me? Countless badass ladies use Hush Tape every night to reap the tremendous benefits of nasal breathing during sleep. </p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_dJjMyz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I Mouth Tape With a Deviated Septum? YEP!",
+            "open": false,
+            "content": "<p>You <em>can</em> use <strong>Hush Tape</strong> if you have a deviated septum, however mouth tape may not be the solution for everyone. We always recommend \"practicing\" to make sure mouth tape will work for you. It may not. Some users wear <strong>Hush Tape</strong> during the day until they feel comfortable using it through the night. We have users that have seen a difference in their deviated septum after using <strong>Hush Tape</strong>.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_aiwcVQ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How is Hostage Tape Better? You obviously haven’t tried it!",
+            "open": false,
+            "content": "<p><strong>Hush Tape is the best mouth tape on the planet – full stop.</strong><br/><br/>Why? Because it’s a completely unique fabric, shape, adhesive, and experience. It’s stronger than other tapes, yet so comfortable most users forget they’re wearing it. Made with medical-grade, hypoallergenic material and acrylic adhesive without latex, <strong>Hush Tape</strong> is porous, safe on skin, and strong enough for facial hair and strong jaws!<br/><br/></p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_R4P6BX",
+        "collapsible_tab_Wc7jPz",
+        "collapsible_tab_kFMpaC",
+        "collapsible_tab_MTTaUG",
+        "collapsible_tab_dJjMyz",
+        "collapsible_tab_aiwcVQ"
+      ],
+      "name": "Collapsible content",
+      "settings": {
+        "heading": "| Frequently | asked questions",
+        "marker_style": "style1",
+        "description": "",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "marker_color": "#004fff",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "color_border": "#dadce0",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "description": "<p>Combine your style with these products</p>",
+        "mobile_swipe": true,
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1746200713507a4f96": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_mndzVX": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": false
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_mndzVX"
+      ],
+      "settings": {}
+    },
+    "test_jXNQRN": {
+      "type": "test",
+      "blocks": {
+        "text_iLi3Dd": {
+          "type": "text",
+          "settings": {
+            "text": "#SHUTYOURMOUTH",
+            "link": "",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_iLi3Dd"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "10s",
+        "rotation": 0,
+        "negative_rotation": false,
+        "font_family": "heading",
+        "text_size": 56,
+        "text_uppercase": true,
+        "image_size": "large",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#1a1c1d",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "construction_NzNctk",
+    "testimonials_9f6VPB",
+    "ks_ANaH9b",
+    "text_with_icons_gKaT9a",
+    "rich_text_jUWedU",
+    "single_image_gjEygg",
+    "collapsible_content_RpcjTQ",
+    "product-recommendations",
+    "1746200713507a4f96",
+    "test_jXNQRN"
+  ]
+}
