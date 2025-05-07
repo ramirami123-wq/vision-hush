@@ -558,6 +558,16 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
+    },
+    "single_image_gjEygg": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/Blue_Modern_Business_Table_Comparison_Chart.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
     }
   },
   "order": [
@@ -566,6 +576,7 @@
     "construction_NzNctk",
     "testimonials_9f6VPB",
     "ks_ANaH9b",
+    "single_image_gjEygg",
     "text_with_icons_gKaT9a",
     "collapsible_content_RpcjTQ",
     "product-recommendations",
