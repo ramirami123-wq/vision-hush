@@ -310,6 +310,7 @@
         },
         "item_BcxAga": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "atc",
             "custom_icon": "shopify://shop_images/wedding-couple.png",
