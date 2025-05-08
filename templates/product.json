@@ -127,6 +127,108 @@
         "enable_video_looping": false
       }
     },
+    "reviews_carousel_hJYnHq": {
+      "type": "reviews-carousel",
+      "blocks": {
+        "slide_iz8L9q": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/unlock-offer.png",
+            "review_stars": "5",
+            "review_title": "",
+            "review_body": "",
+            "reviewer_name": "",
+            "reviewer_profession": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_iz8L9q"
+      ],
+      "name": "Reviews Carousel",
+      "settings": {
+        "bg_image": "shopify://shop_images/Reviews.webp",
+        "bg_image_mobile": "shopify://shop_images/Reviews.webp",
+        "title": ""
+      }
+    },
+    "animated_paragraph_wLafcK": {
+      "type": "animated-paragraph",
+      "blocks": {
+        "sentence_67qTDB": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "mouth tape stops <strong>Mouth breathing </strong>during sleep",
+            "sentence_highlight": "circle"
+          }
+        },
+        "sentence_YxWp9j": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "<strong>disrupts rest</strong>",
+            "sentence_highlight": "circle"
+          }
+        },
+        "sentence_pnL7wT": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "<strong>and causes snoring,</strong>",
+            "sentence_highlight": "circle"
+          }
+        },
+        "sentence_paUAYX": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "<strong>dry throat,</strong>",
+            "sentence_highlight": "underline"
+          }
+        },
+        "sentence_XCdaDy": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "<strong>morning headaches,</strong>",
+            "sentence_highlight": "underline"
+          }
+        },
+        "sentence_EKbpKm": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "<strong>irritability,</strong>",
+            "sentence_highlight": "underline"
+          }
+        },
+        "sentence_tCQbpH": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "<strong>an increase in fatigue,</strong>",
+            "sentence_highlight": "underline"
+          }
+        },
+        "sentence_g4PcHz": {
+          "type": "sentence",
+          "settings": {
+            "sentence_copy": "<strong>and a decrease in energy levels.</strong>",
+            "sentence_highlight": "underline"
+          }
+        }
+      },
+      "block_order": [
+        "sentence_67qTDB",
+        "sentence_YxWp9j",
+        "sentence_pnL7wT",
+        "sentence_paUAYX",
+        "sentence_XCdaDy",
+        "sentence_EKbpKm",
+        "sentence_tCQbpH",
+        "sentence_g4PcHz"
+      ],
+      "name": "Animated Paragraph",
+      "settings": {
+        "bg_image": "shopify://shop_images/Frame_3916.webp",
+        "bg_color": "#000"
+      }
+    },
     "construction_NzNctk": {
       "type": "construction",
       "blocks": {
@@ -597,11 +699,23 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
+    },
+    "spacer_dzE8Yh": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
     }
   },
   "order": [
     "breadcrumbs",
     "main-product",
+    "reviews_carousel_hJYnHq",
+    "animated_paragraph_wLafcK",
     "construction_NzNctk",
     "testimonials_9f6VPB",
     "ks_ANaH9b",
@@ -611,6 +725,7 @@
     "collapsible_content_RpcjTQ",
     "product-recommendations",
     "1746200713507a4f96",
-    "test_jXNQRN"
+    "test_jXNQRN",
+    "spacer_dzE8Yh"
   ]
 }
