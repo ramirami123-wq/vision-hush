@@ -127,6 +127,16 @@
         "enable_video_looping": false
       }
     },
+    "spacer_dzE8Yh": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
     "reviews_carousel_hJYnHq": {
       "type": "reviews-carousel",
       "blocks": {
@@ -699,21 +709,12 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
-    },
-    "spacer_dzE8Yh": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 50,
-        "spacer_desktop": 100,
-        "border_separator": false,
-        "border_separator_full": false
-      }
     }
   },
   "order": [
     "breadcrumbs",
     "main-product",
+    "spacer_dzE8Yh",
     "reviews_carousel_hJYnHq",
     "animated_paragraph_wLafcK",
     "construction_NzNctk",
@@ -725,7 +726,6 @@
     "collapsible_content_RpcjTQ",
     "product-recommendations",
     "1746200713507a4f96",
-    "test_jXNQRN",
-    "spacer_dzE8Yh"
+    "test_jXNQRN"
   ]
 }
