@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/DSC00609.gif",
-            "slide_link": "",
+            "slide_link": "shopify://products/hush-mouth-tape",
             "video_background": false,
             "badge_text": "",
             "subheading": "Join 150,000+ Snorers Who Sleep Better Every Night",
@@ -394,7 +394,7 @@
       "type": "custom-liquid",
       "name": "Custom liquid",
       "settings": {
-        "custom_liquid": "<div style=\"text-align: center; margin-top: -20px;margin-bottom:4rem;\">\n  <button style=\"background-color: #004FFF; border: none; border-radius: 25px; padding: 12px 24px; color: white; font-weight: bold; font-size: 16px; cursor: pointer;\">\n    GET BETTER SLEEP\n  </button>\n</div>"
+        "custom_liquid": "<div style=\"text-align: center; margin-top: -20px;margin-bottom:4rem;\">\n  <a href=\"https://hushtapelb.com/products/hush-mouth-tape\" style=\"text-decoration: none;\">\n    <button style=\"background-color: #004FFF; border: none; border-radius: 25px; padding: 12px 24px; color: white; font-weight: bold; font-size: 16px; cursor: pointer;\">\n      GET BETTER SLEEP\n    </button>\n  </a>\n</div>"
       }
     },
     "steps_36N39D": {
