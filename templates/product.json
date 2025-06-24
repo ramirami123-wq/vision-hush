@@ -140,6 +140,30 @@
     "reviews_carousel_hJYnHq": {
       "type": "reviews-carousel",
       "blocks": {
+        "slide_CPB8Rp": {
+          "type": "slide",
+          "settings": {
+            "media_type": "video",
+            "video": "shopify://files/videos/Erling halaand.mov",
+            "review_stars": "5",
+            "review_title": "",
+            "review_body": "I started mouth taping while sleeping — it helps me recover better, breathe through my nose, and I feel a big difference. It’s been a game changer for my recovery and performance.",
+            "reviewer_name": "Erling Haaland",
+            "reviewer_profession": "Footballer"
+          }
+        },
+        "slide_NbPJQc": {
+          "type": "slide",
+          "settings": {
+            "media_type": "video",
+            "video": "shopify://files/videos/Emma roberts.mov",
+            "review_stars": "5",
+            "review_title": "",
+            "review_body": "I have recently started sleeping with mouth tape, and if you guys aren't doing it, you should because it's life‑changing.",
+            "reviewer_name": "Emma Roberts",
+            "reviewer_profession": "Actress, producer."
+          }
+        },
         "slide_iz8L9q": {
           "type": "slide",
           "settings": {
@@ -148,13 +172,15 @@
             "video": "shopify://files/videos/Joe rogan podcast.mov",
             "review_stars": "5",
             "review_title": "",
-            "review_body": "",
-            "reviewer_name": "",
-            "reviewer_profession": ""
+            "review_body": "I love it — it’s a game changer!",
+            "reviewer_name": "Joe Rogan",
+            "reviewer_profession": "Podcast host"
           }
         }
       },
       "block_order": [
+        "slide_CPB8Rp",
+        "slide_NbPJQc",
         "slide_iz8L9q"
       ],
       "name": "Reviews Carousel",
