@@ -143,8 +143,9 @@
         "slide_iz8L9q": {
           "type": "slide",
           "settings": {
-            "media_type": "image",
+            "media_type": "video",
             "image": "shopify://shop_images/unlock-offer.png",
+            "video": "shopify://files/videos/Joe rogan podcast.mov",
             "review_stars": "5",
             "review_title": "",
             "review_body": "",
@@ -295,7 +296,7 @@
             "custom_icon": "shopify://shop_images/moon.png",
             "heading": "Sleep",
             "text": "<p>Hush Tape encourages nasal breathing to reduce snoring, promoting a deeper, more restorative sleep, and leading to a quieter sleep environment so you and your partner can get the sleep you deserve</p>",
-            "image": "shopify://shop_images/image3.png"
+            "image": "shopify://shop_images/DSC00609.gif"
           }
         },
         "item_y7aPFR": {
@@ -305,7 +306,7 @@
             "custom_icon": "shopify://shop_images/beard.png",
             "heading": "Beard Friendly!",
             "text": "<p>With an adhesive specifically dialed up to withstand the manliest of beards, Hush Tape is the only choice for those looking for great sleep and decreased snoring... without sacrificing their beards.</p>",
-            "image": "shopify://shop_images/image-card12.png"
+            "image": "shopify://shop_images/DSC00600.gif"
           }
         },
         "item_BcxAga": {
@@ -629,22 +630,6 @@
     },
     "1746200713507a4f96": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_mndzVX": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 20,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": false
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_mndzVX"
-      ],
       "settings": {}
     },
     "test_jXNQRN": {
