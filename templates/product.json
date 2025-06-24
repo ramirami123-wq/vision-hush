@@ -168,7 +168,6 @@
           "type": "slide",
           "settings": {
             "media_type": "video",
-            "image": "shopify://shop_images/unlock-offer.png",
             "video": "shopify://files/videos/Joe rogan podcast.mov",
             "review_stars": "5",
             "review_title": "",
@@ -176,12 +175,25 @@
             "reviewer_name": "Joe Rogan",
             "reviewer_profession": "Podcast host"
           }
+        },
+        "slide_9XnaVC": {
+          "type": "slide",
+          "settings": {
+            "media_type": "video",
+            "video": "shopify://files/videos/Andrew huberman.mov",
+            "review_stars": "5",
+            "review_title": "",
+            "review_body": "",
+            "reviewer_name": "",
+            "reviewer_profession": ""
+          }
         }
       },
       "block_order": [
         "slide_CPB8Rp",
         "slide_NbPJQc",
-        "slide_iz8L9q"
+        "slide_iz8L9q",
+        "slide_9XnaVC"
       ],
       "name": "Reviews Carousel",
       "settings": {
