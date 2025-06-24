@@ -187,13 +187,26 @@
             "reviewer_name": "Andrew Huberman",
             "reviewer_profession": "Neuroscientist"
           }
+        },
+        "slide_43bCBf": {
+          "type": "slide",
+          "settings": {
+            "media_type": "video",
+            "video": "shopify://files/videos/Random boy (jawline).mov",
+            "review_stars": "5",
+            "review_title": "",
+            "review_body": "",
+            "reviewer_name": "",
+            "reviewer_profession": ""
+          }
         }
       },
       "block_order": [
         "slide_CPB8Rp",
         "slide_NbPJQc",
         "slide_iz8L9q",
-        "slide_9XnaVC"
+        "slide_9XnaVC",
+        "slide_43bCBf"
       ],
       "name": "Reviews Carousel",
       "settings": {
