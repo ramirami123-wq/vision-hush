@@ -52,6 +52,7 @@
     "search_menu": "",
     "search_product_collection": "all",
     "search_product_collection_limit": 3,
+    "email_terms_conditions_enable": false,
     "search_product_list": [],
     "content_for_index": []
   },

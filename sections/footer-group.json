@@ -47,10 +47,10 @@
       "settings": {
         "footer_reveal_animation": true,
         "copyright_text": "All rights reserved.",
-        "show_language_switcher": true,
-        "show_currency_switcher": true,
-        "show_payment_icons": true,
-        "enable_follow_on_shop": true
+        "show_language_switcher": false,
+        "show_currency_switcher": false,
+        "show_payment_icons": false,
+        "enable_follow_on_shop": false
       }
     }
   },
