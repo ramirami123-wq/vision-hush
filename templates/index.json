@@ -15,6 +15,7 @@
         "template--17993467625754__8ba47ba3-de7f-4f0a-b30d-6f2a540748c3-16787035832bb7b6a4-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/DSC00609.gif",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -29,7 +30,7 @@
             "color_slidebg": "rgba(0,0,0,0)",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 0,
-            "color_text": "#2c2d2e",
+            "color_text": "#ffffff",
             "color_badge_bg": "#3f72e5",
             "color_badge_text": "#ffffff",
             "overlay_color": "#000000",
@@ -311,6 +312,7 @@
     },
     "featured_collection_YC6W78": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "{text-align: center;}"
       ],
@@ -595,23 +597,6 @@
     },
     "1746200560fdd95c82": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_YjKnpg": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "",
-            "aggregated": true,
-            "data-limit": 20,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_YjKnpg"
-      ],
       "settings": {}
     },
     "scrolling_text_xaxGgD": {
