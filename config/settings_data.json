@@ -57,7 +57,14 @@
     "search_product_collection_limit": 3,
     "email_terms_conditions_enable": false,
     "search_product_list": [],
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "6544682535036668446": {
+        "type": "shopify://apps/pumper-bundles-quantity-breaks/blocks/app-embed/0856870d-2aca-4b1e-a662-cf1797f61270",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Default": {
