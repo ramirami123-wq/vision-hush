@@ -156,7 +156,7 @@
             "review_title": "",
             "review_body": "I started mouth taping while sleeping — it helps me recover better, breathe through my nose, and I feel a big difference. It’s been a game changer for my recovery and performance.",
             "reviewer_name": "Erling Haaland",
-            "reviewer_profession": "Footballer"
+            "reviewer_profession": "Professional footballer"
           }
         },
         "slide_NbPJQc": {
@@ -180,7 +180,7 @@
             "review_title": "",
             "review_body": "I love it — it’s a game changer!",
             "reviewer_name": "Joe Rogan",
-            "reviewer_profession": "Podcast host"
+            "reviewer_profession": "American podcast host  and UFC commentator"
           }
         },
         "slide_9XnaVC": {
@@ -192,19 +192,7 @@
             "review_title": "",
             "review_body": "It’s a great idea to be a nose breather in sleep. One way to really get good at that is to take a little bit of medical tape and tape your mouth shut before going to sleep.",
             "reviewer_name": "Andrew Huberman",
-            "reviewer_profession": "Neuroscientist"
-          }
-        },
-        "slide_43bCBf": {
-          "type": "slide",
-          "settings": {
-            "media_type": "video",
-            "video": "shopify://files/videos/Random boy (jawline).mov",
-            "review_stars": "5",
-            "review_title": "",
-            "review_body": "",
-            "reviewer_name": "",
-            "reviewer_profession": ""
+            "reviewer_profession": "Health and performance expert"
           }
         }
       },
@@ -212,8 +200,7 @@
         "slide_CPB8Rp",
         "slide_NbPJQc",
         "slide_iz8L9q",
-        "slide_9XnaVC",
-        "slide_43bCBf"
+        "slide_9XnaVC"
       ],
       "name": "Reviews Carousel",
       "settings": {
