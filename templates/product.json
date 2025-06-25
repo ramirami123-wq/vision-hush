@@ -60,6 +60,7 @@
         },
         "quantity": {
           "type": "quantity",
+          "disabled": true,
           "settings": {}
         },
         "buy_buttons": {
