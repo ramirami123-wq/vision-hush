@@ -330,6 +330,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      ".onsale {background-color: #1B365D;}"
+    ]
   }
 }
