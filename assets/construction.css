@@ -209,5 +209,5 @@
 }
 
 .construction__list svg path{
-  box-sizing: initial
+  box-sizing: initial !important
 }
