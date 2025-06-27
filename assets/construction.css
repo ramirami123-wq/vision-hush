@@ -207,3 +207,7 @@
     height: 100%
   }
 }
+
+.construction__list svg path{
+  box-sizing: initial
+}
