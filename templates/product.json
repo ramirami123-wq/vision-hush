@@ -152,7 +152,8 @@
           "type": "slide",
           "settings": {
             "media_type": "video",
-            "video": "shopify://files/videos/reference video (ema roberts).mov",
+            "video": "shopify://files/videos/reference video (Erling Halaand).mp4",
+            "video_preview_poster": "shopify://files/videos/reference video (Erling Halaand).mp4",
             "review_stars": "5",
             "review_title": "",
             "review_body": "I started mouth taping while sleeping — it helps me recover better, breathe through my nose, and I feel a big difference. It’s been a game changer for my recovery and performance.",
@@ -164,24 +165,24 @@
           "type": "slide",
           "settings": {
             "media_type": "video",
-            "video": "shopify://files/videos/reference video (ema roberts)_b6c48d9d-3330-40a7-bf0c-44709ed682a4.mov",
+            "video": "shopify://files/videos/reference video (joe rogan).mp4",
             "review_stars": "5",
             "review_title": "",
-            "review_body": "I have recently started sleeping with mouth tape, and if you guys aren't doing it, you should because it's life‑changing.",
-            "reviewer_name": "Emma Roberts",
-            "reviewer_profession": "Actress, producer."
+            "review_body": "I love it — it’s  my game changer!",
+            "reviewer_name": "Joe Rogan",
+            "reviewer_profession": "American podcast host  and UFC commentator"
           }
         },
         "slide_iz8L9q": {
           "type": "slide",
           "settings": {
             "media_type": "video",
-            "video": "shopify://files/videos/copy_52EE3A05-BEB6-4BCC-8D07-D8818E2B5728.mov",
+            "video": "shopify://files/videos/reference video (ema roberts).mp4",
             "review_stars": "5",
             "review_title": "",
-            "review_body": "I love it — it’s a game changer!",
-            "reviewer_name": "Joe Rogan",
-            "reviewer_profession": "American podcast host  and UFC commentator"
+            "review_body": "I have recently started sleeping with mouth tape, and if you guys aren't doing it, you should  be because it's life‑changing, I feel more refreshed when I wake up sleeping with Mouth tape",
+            "reviewer_name": "Ema Roberts",
+            "reviewer_profession": "Actress, producer"
           }
         },
         "slide_9XnaVC": {
