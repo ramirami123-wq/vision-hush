@@ -207,7 +207,7 @@
       "settings": {
         "bg_image": "shopify://shop_images/Reviews.webp",
         "bg_image_mobile": "shopify://shop_images/Reviews.webp",
-        "title": "Trusted By Experts"
+        "title": "<span>Trusted By Experts</span>"
       }
     },
     "animated_paragraph_wLafcK": {
