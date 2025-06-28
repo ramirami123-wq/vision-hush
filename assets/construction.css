@@ -208,6 +208,6 @@
   }
 }
 
-.construction__list svg path{
+.construction__list svg {
       box-sizing: content-box;
 }
