@@ -214,5 +214,8 @@
 }
 .construction__list svg path{
   stroke: currentColor !important;
-  /* fill: currentColor !important; */
+}
+.construction__list svg circle{
+    stroke: currentColor !important;
+  fill: currentColor !important;
 }
