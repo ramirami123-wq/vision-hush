@@ -213,6 +213,6 @@
   color: #1b365d 
 }
 .construction__list svg path,.construction__list svg circle{
-  stroke: currentColor;
-  fill: currentColor;
+  stroke: currentColor !important;
+  fill: currentColor !important;
 }
