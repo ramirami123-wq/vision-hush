@@ -12,9 +12,146 @@
     "main": {
       "type": "main-page",
       "settings": {}
+    },
+    "image_with_text_fWcDyM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_L7UUxB": {
+          "type": "heading",
+          "settings": {
+            "text": "1. Peel Backing Strip",
+            "marker_style": "style1",
+            "heading_size": "h3",
+            "marker_color": "#FD6262"
+          }
+        },
+        "text_aKDHjt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pull strip's sides apart to separate backing and expose adhesive</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_L7UUxB",
+        "text_aKDHjt"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Hostage_Tape_mouth_tape_step_1.png",
+        "use_video": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "content_position": "text-left",
+        "column_spacing": "medium",
+        "color_bg": "#ffffff",
+        "color_text": "#2c2d2e",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_8JeC8E": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8J4BWK": {
+          "type": "heading",
+          "settings": {
+            "text": "2. Applying Tape",
+            "marker_style": "style1",
+            "heading_size": "h3",
+            "marker_color": "#FD6262"
+          }
+        },
+        "text_AYhkNe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Apply to dry and pursed lips. Massage the tape to secure its position.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8J4BWK",
+        "text_AYhkNe"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Hostage_Tape_mouth_tape_step_2.png",
+        "use_video": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "content_position": "text-left",
+        "column_spacing": "medium",
+        "color_bg": "#ffffff",
+        "color_text": "#2c2d2e",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_JFCMe9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qPViGm": {
+          "type": "heading",
+          "settings": {
+            "text": "3. Ultimate Sleep Comfort",
+            "marker_style": "style1",
+            "heading_size": "h3",
+            "marker_color": "#FD6262"
+          }
+        },
+        "text_PQYNHg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enjoy a restful night's sleep with the world's most flexible & comfortable mouth tape.</p>"
+          }
+        },
+        "button_hrq7Nx": {
+          "type": "button",
+          "settings": {
+            "button_text": "GET YOURS",
+            "button_link": "shopify://products/hush-mouth-tape"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qPViGm",
+        "text_PQYNHg",
+        "button_hrq7Nx"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Hostage_Tape_mouth_tape_step_3_sleeping.png",
+        "use_video": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "content_position": "text-left",
+        "column_spacing": "medium",
+        "color_bg": "#ffffff",
+        "color_text": "#2c2d2e",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_fWcDyM",
+    "image_with_text_8JeC8E",
+    "image_with_text_JFCMe9"
   ]
 }
