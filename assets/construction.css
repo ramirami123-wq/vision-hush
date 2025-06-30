@@ -212,7 +212,7 @@
   box-sizing: content-box;
   color: #1b365d 
 }
-.construction__list svg path,.construction__list svg circle{
+.construction__list svg path{
   stroke: currentColor !important;
   /* fill: currentColor !important; */
 }
