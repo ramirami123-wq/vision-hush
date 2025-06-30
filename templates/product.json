@@ -705,10 +705,6 @@
       ],
       "settings": {}
     },
-    "1746200713507a4f96": {
-      "type": "apps",
-      "settings": {}
-    },
     "test_jXNQRN": {
       "type": "test",
       "blocks": {
@@ -760,7 +756,6 @@
     "collapsible_content_RpcjTQ",
     "product-recommendations",
     "1751300035b62b160b",
-    "1746200713507a4f96",
     "test_jXNQRN"
   ]
 }
