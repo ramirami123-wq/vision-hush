@@ -19,12 +19,6 @@
     "main-product": {
       "type": "main-product",
       "blocks": {
-        "custom_liquid_iYyaCY": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<span style=\"display: inline-block; padding: 2px 10px; background-color: #1B365D; color: #ffffff; font-size: 12px; font-weight: bold; border-radius: 999px; text-transform: uppercase; letter-spacing: 0.5px;margin-bottom:1rem;\">\n  LIMITED QUANTITY\n</span>"
-          }
-        },
         "custom_liquid_CpaYye": {
           "type": "custom_liquid",
           "settings": {
@@ -62,6 +56,12 @@
           "type": "quantity",
           "disabled": true,
           "settings": {}
+        },
+        "custom_liquid_iYyaCY": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"display: inline-block; padding: 2px 10px; background-color: #1B365D; color: #ffffff; font-size: 12px; font-weight: bold; border-radius: 999px; text-transform: uppercase; letter-spacing: 0.5px;margin-bottom:1rem;\">\n  LOW STOCK\n</span>"
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -111,12 +111,12 @@
         }
       },
       "block_order": [
-        "custom_liquid_iYyaCY",
         "custom_liquid_CpaYye",
         "title",
         "custom_liquid_zUV3U9",
         "variant_picker",
         "quantity",
+        "custom_liquid_iYyaCY",
         "buy_buttons",
         "custom_liquid_Czjm9W",
         "custom_liquid_FqcLBq",
