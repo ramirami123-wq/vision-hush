@@ -636,6 +636,16 @@
             "page": "",
             "custom_liquid": ""
           }
+        },
+        "collapsible_tab_3aHnQe": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Wondering How Our Mouth Tape Works?",
+            "open": false,
+            "content": "<p>These little lifesavers gently lift and open your nose passages. Think of them like tiny springs that hold your nostrils wider. This lets more air flow in and out, making breathing easier, especially at night or during exercise.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -644,7 +654,8 @@
         "collapsible_tab_kFMpaC",
         "collapsible_tab_MTTaUG",
         "collapsible_tab_dJjMyz",
-        "collapsible_tab_aiwcVQ"
+        "collapsible_tab_aiwcVQ",
+        "collapsible_tab_3aHnQe"
       ],
       "name": "Collapsible content",
       "settings": {
