@@ -21,7 +21,7 @@
 
 .construction__title span::after {
   content: "";
-  background: url(../assets/Scribbles_5.png) no-repeat;
+  background: url("https://cdn.shopify.com/s/files/1/0755/3325/4899/files/Scribbles_5_1.png?v=1751264872") no-repeat;
   position: absolute;
   width: calc(100% + 40px);
   height: 262px;
