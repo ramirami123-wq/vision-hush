@@ -124,6 +124,9 @@
         "collapsible_tab_C3mRaX",
         "complementary_zgUzpp"
       ],
+      "custom_css": [
+        ".single-add-to-cart-button {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
+      ],
       "settings": {
         "enable_sticky_add_to_cart": false,
         "show_taxes_included": true,
