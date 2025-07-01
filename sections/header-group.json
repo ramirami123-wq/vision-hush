@@ -52,7 +52,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "sticky_header": true,
+        "sticky_header": false,
         "logo": "shopify://shop_images/HUSH_TO_B_TB-1-removebg-preview_7c3c08dd-431c-4a49-9374-791d981309ee.png",
         "logo_height_range": 26,
         "logo_height_range_mobile": 25,

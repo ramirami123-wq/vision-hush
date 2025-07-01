@@ -135,7 +135,7 @@
         ".single-add-to-cart-button {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
       ],
       "settings": {
-        "enable_sticky_add_to_cart": false,
+        "enable_sticky_add_to_cart": true,
         "show_taxes_included": true,
         "thumbnail_position": "bottom",
         "media_aspect_ratio": "portrait",
