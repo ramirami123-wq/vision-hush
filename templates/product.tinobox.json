@@ -167,45 +167,6 @@
         "layers_data_color": "#0f0f10"
       }
     },
-    "testimonials_9f6VPB": {
-      "type": "testimonials",
-      "blocks": {
-        "quote_rgP4kr": {
-          "type": "quote",
-          "settings": {
-            "stars": "",
-            "text": "Been using other mouth tape to sleep for over a year. This is by far the best and stays on when others don’t because of facial hair… Hush Tape stays on comfortably through the whole night.",
-            "author": "Omar L."
-          }
-        },
-        "quote_mAek3P": {
-          "type": "quote",
-          "settings": {
-            "stars": "",
-            "text": "For years, I struggled with tapes that would either fall off during the night or simply couldn't adhere properly to my mustache and beard. It was frustrating to say the least.  Then I discovered Hush Tape.",
-            "author": "Rami S."
-          }
-        }
-      },
-      "block_order": [
-        "quote_rgP4kr",
-        "quote_mAek3P"
-      ],
-      "name": "Testimonials",
-      "settings": {
-        "heading": "Trusted by 100,000+ Mouth Tapers worldwide",
-        "full_width": true,
-        "text_size": "medium",
-        "font_family": "heading",
-        "pagination": "dots",
-        "autoplay": true,
-        "autoplay_length": 5,
-        "color_bg": "#f5f5f5",
-        "color_text": "#2c2d2e",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "ks_ANaH9b": {
       "type": "ks",
       "blocks": {
@@ -593,7 +554,6 @@
     "breadcrumbs",
     "main-product",
     "construction_NzNctk",
-    "testimonials_9f6VPB",
     "ks_ANaH9b",
     "text_with_icons_gKaT9a",
     "rich_text_jUWedU",
