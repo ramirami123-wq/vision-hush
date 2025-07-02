@@ -656,6 +656,16 @@
             "page": "",
             "custom_liquid": ""
           }
+        },
+        "collapsible_tab_bxiA9V": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Let's Talk About Ingredients. Are These Mouth Tapes Safe For Sensitive Skin?",
+            "open": false,
+            "content": "<p>Yes — Hush Tape is generally considered safe for use on beards and sensitive skin. It’s made from breathable, stretchable medical-grade fabric with a gentle, skin-friendly adhesive that flexes without irritating facial hair or pulling on delicate skin. It’s designed to sit comfortably even with facial hair and removes easily without leaving residue. For sensitive skin, its hypoallergenic design and breathable materials reduce the risk of irritation — though a patch test is still recommended before full use.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -665,7 +675,8 @@
         "collapsible_tab_MTTaUG",
         "collapsible_tab_dJjMyz",
         "collapsible_tab_aiwcVQ",
-        "collapsible_tab_3aHnQe"
+        "collapsible_tab_3aHnQe",
+        "collapsible_tab_bxiA9V"
       ],
       "name": "Collapsible content",
       "settings": {
