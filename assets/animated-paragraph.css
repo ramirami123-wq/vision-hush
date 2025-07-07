@@ -40,7 +40,8 @@
 
 .highlight-circle strong::after {
   background: url('https://cdn.shopify.com/s/files/1/0755/3325/4899/files/Scribbles_1.png?v=1751264286') no-repeat;
-  background-size: 234px 67px;
+  /* background-size: 234px 67px; */
+  background-size: 192px 67px;
   height: 67px;
   left: -11px;
   bottom: -10px;
