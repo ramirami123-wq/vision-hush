@@ -334,6 +334,7 @@
     },
     "single_image_Y4HbFi": {
       "type": "single-image",
+      "disabled": true,
       "name": "Single image",
       "settings": {
         "image": "shopify://shop_images/WhatsApp_Image_2025-05-08_at_6.03.20_AM.jpg",
